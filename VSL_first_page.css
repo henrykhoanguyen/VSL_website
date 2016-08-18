@@ -9,14 +9,14 @@
 	position: fixed;
 	background-color: #33A8FF;
 	transition:all 0.4s;
+	z-index:1;
 }
 
 #header ul li{
 	list-style-type:none;
 }
 
-.idk{
-	height: 100px
+.top_spacer{
 }
 
 .logo{
