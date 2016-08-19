@@ -1,15 +1,7 @@
-#copyright{
-  font-size: .75em;
-  margin-left: 10em;
-}
-
 .hidden.menu {
   display: none;
 }
 
-.center{
-  
-}
 .masthead.segment {
   min-height: 700px;
   padding: 1em 0em;
@@ -29,14 +21,6 @@
 .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
-}
-.ui.inverted.vertical.masthead.center.aligned.segment {
-  background-image: url(images/cute6.jpg);
-  background-position: center;
-
-}
-.ui.large.secondary.inverted.pointing.menu{
-  border: none;
 }
 
 .ui.vertical.stripe {
@@ -97,4 +81,33 @@
     margin-top: 0.5em;
     font-size: 1.5em;
   }
+}
+
+.ui.inverted.vertical.masthead.center.aligned.segment {
+  background-image: url(images/cute2.jpg);
+  background-position: center;
+
+}
+.ui.large.secondary.inverted.pointing.menu{
+  border: none;
+}
+
+#copyright{
+  font-size: .75em;
+  margin-left: 10em;
+}
+
+.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: url("navigate-up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }

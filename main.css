@@ -86,7 +86,7 @@
 
 .ui.inverted.vertical.masthead.center.aligned.segment{
   background-color:#42AEFF;
-  background-image:url(images/cute3.jpg);
+  background-image:url(images/DSC_0416.jpg);
   background-position: center;
 }
 
@@ -101,4 +101,19 @@
 #copyright{
   font-size: .75em;
   margin-left:10em;
+}
+
+.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: url("navigate-up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }
