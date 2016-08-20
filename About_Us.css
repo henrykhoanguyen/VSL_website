@@ -1,5 +1,6 @@
-.hidden.menu {
-  display: none;
+.hidden.menu 
+{
+      display: none;
 }
 
 .masthead.segment {
@@ -83,18 +84,23 @@
   }
 }
 
-.ui.inverted.vertical.masthead.center.aligned.segment {
-  background-image: url(images/cute2.jpg);
+.ui.inverted.vertical.masthead.center.aligned.segment{
+  background-color:#42AEFF;
+  background-image:url(images/DSC_0416.jpg);
   background-position: center;
-
 }
+
 .ui.large.secondary.inverted.pointing.menu{
-  border: none;
+  border-style:none;
+}
+
+.ui.large.top.fixed.hidden.menu{
+  color:#42AEFF;
 }
 
 #copyright{
   font-size: .75em;
-  margin-left: 10em;
+  margin-left:10em;
 }
 
 .back-to-top {
@@ -106,7 +112,7 @@
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: url("navigate-up-arrow.png") no-repeat center 43%;
+  background: url("images/navigate-up-arrow.png") no-repeat center 43%;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
