@@ -67,7 +67,7 @@
     <div class="right menu">
     <a class="item" href="Home_Page.html">Home</a>
     <a class="item" href="About_Us.html">About Us</a>
-    <a class="item">Calendars</a>
+    <a class="item" href="Calendars_Page.html">Calendars</a>
     <a class="active item" href="Contacts.html">Contacts</a>
     <a class="item">Announcements</a>
     </div>
@@ -78,7 +78,7 @@
 <div class="ui vertical inverted sidebar menu">
   <a class="item" href="Home_Page.html">Home</a>
   <a class="item" href="About_Us.html">About Us</a>
-  <a class="item">Calendars</a>
+  <a class="item" href="Calendars_Page.html">Calendars</a>
   <a class="active item" href="Contacts.html">Contacts</a>
   <a class="item">Announcements</a>
 </div>
@@ -98,51 +98,85 @@
         <div class="right item">
           <a class="item" href="Home_Page.html">Home</a>
           <a class="item" href="About_Us.html">About Us</a>
-          <a class="item">Calendars</a>
+          <a class="item" href="Calendars_Page.html">Calendars</a>
           <a class="active item" href="Contacts.html">Contacts</a>
           <a class="item">Announcements</a>
         </div>
       </div>
     </div>
 
-
     <div class="ui text container">
       <h1 class="ui inverted header">
-        <a class="button" href="#popup1">        
-          <img src="images/HT-boi.png" alt="Socrates Pham" class="ui avatar image">
-          <!--<img src="images/HT-boi.png" data-title="Dennis Bui" data-content="Dennis has been a member since August 2013" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="Kevin Nguyen" data-content="Kevin has been a member since July 2015" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="Brain Bui" data-content="Brian has been a member since April 2011" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="Tony Nguyen" data-content="Tony has been a member since December 2012" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="John Do" data-content="John has been a member since August 2012" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="Nguyen Tran" data-content="Nguyen has been a member since August 2012" class="ui avatar image">
-          <img src="images/HT-boi.png" data-title="Jack Nguyen" data-content="Jack has been a member since August 2013" class="ui avatar image">
-          <img src="images/khoa-dev.png" data-title="Khoa Nguyen" data-content="Khoa has been a member since July 2014" class="ui avatar image">-->
+        <a href="#popup1">        
+          <img onclick="myHuynhTruong(0)" src="images/HT-boi.png" alt="Socrates Pham" class="ui avatar image">
+        </a>
+
+        <a href="#popup1">        
+          <img onclick="myHuynhTruong(1)" src="images/HT-boi.png" alt="Dennis Bui" class="ui avatar image">
+        </a>
+        
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(2)" src="images/HT-boi.png" alt="Kevin Nguyen" class="ui avatar image">
+        </a>
+        
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(3)" src="images/HT-boi.png" alt="Brain Bui" class="ui avatar image">
+        </a>
+
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(4)" src="images/HT-boi.png" alt="Tony Nguyen" class="ui avatar image">
+        
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(5)" src="images/HT-boi.png" alt="John Do" class="ui avatar image">
+        </a>
+
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(6)" src="images/HT-boi.png" alt="Nguyen Tran" class="ui avatar image">
+        </a>
+        
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(7)" src="images/HT-boi.png" alt="Jack Nguyen" class="ui avatar image">
+        </a>
+
+        <a href="#popup1">
+          <img onclick="myHuynhTruong(8)" src="images/khoa-dev.png" alt="Khoa Nguyen" class="ui avatar image">
         </a>
       </h1>
     </div>
 
   </div>
 
+
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2 id="name"></h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <p id ="info"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function myHuynhTruong(num){
+      var HT_Name = ["Socrates Pham", "Dennis Bui", "Kevin Nguyen", "Brian Bui",
+            "Tony Nguyen", "John Do", "Nguyen Tran", "Jack Nguyen", "Khoa Nguyen"];
+
+      var HT_Info = ["Doan Truong", "Doan Pho Quan Tri", "Doan Pho Nghiem Huan", "Thu Ky", "Thu Quy", "Nganh Truong Nganh Nghia",
+            "Nganh Truong Nganh Thieu","Nganh Truong Nganh Thieu", "Nganh Truong Hiep Sy"];
+
+     document.getElementById("name").innerHTML = HT_Name[num];
+     document.getElementById("info").innerHTML = HT_Info[num];
+    }
+  </script>
+
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
       <div class="row">
+
       </div>
     </div>
   </div>
-
-  <div id="popup1" class"overlay">
-    <div class="popup">
-      <h2>Socrates Pham</h2> <!-- Name goes here -->
-      <a class="close" href="#">&times;<!--X button--></a>
-      <div class="content">
-        <a id="text">Socrates has been a member since June 2012</a> <!-- Phone number & saint name -->
-      </div>
-    </div>
-  </div>
-
-
-  <div> </div>
 
 <!-- FOOTER OF COPYRIGHT FRAGMENT -->
   <div class="ui inverted vertical footer segment">

@@ -120,11 +120,11 @@
 }
 
 .popup {
-  margin: 20px auto;
+  margin: 30em auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 25%;
+  width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
   -webkit-transition: all 5s ease-in-out;
@@ -158,10 +158,6 @@
   text-align: left;
 }
 
-#text{
-  color: black;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -180,13 +176,9 @@
   opacity: 1;
 }
 
-.button {
-  font-size: 1em;
-  padding: 5px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
+
+.ui.inverted.vertical.footer.segment{
+    clear: both;
+    z-index: 10;
+    height: 4.5em;
 }
