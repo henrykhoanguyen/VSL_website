@@ -23,7 +23,7 @@ background-image:url(https://newevolutiondesigns.com/images/freebies/city-wallpa
 }
 
 .ui.inverted.vertical.masthead.center.aligned.segment {
-  background-image: url(http://www.resetsanfrancisco.org/wp-content/uploads/2015/11/fenced-road-through-the-redwood-trees-28747-1920x1080-1.jpg);
+  background-image: url(images/DSC_0393.jpg);
   background-position: center;
 
 }
@@ -77,5 +77,5 @@ background-image:url(https://newevolutiondesigns.com/images/freebies/city-wallpa
 }
 
 #moto{
-  text-shadow:1px 1px 25px #000000;
+  text-shadow:1px 1px 35px #000000;
 }
