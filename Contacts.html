@@ -109,50 +109,38 @@
     <div class="ui text container">
       <h1 class="ui inverted header">
         <a href="#popup1">        
-          <img onclick="myHuynhTruong(0)" src="images/priest.svg" alt="Socrates Pham" class="ui avatar image">
+          <img onclick="myHuynhTruong(0)" src="images/priest.svg" alt="Cha Tuyên Úy" class="ui avatar image">
         </a>
-
         <a href="#popup1">        
-          <img onclick="myHuynhTruong(1)" src="images/nun.svg" alt="Dennis Bui" class="ui avatar image">
+          <img onclick="myHuynhTruong(1)" src="images/nun.svg" alt="Sơ Tuyên Úy" class="ui avatar image">
         </a>
-
         <br></br>
-        
         <a href="#popup1">
-          <img onclick="myHuynhTruong(2)" src="images/HT-boi.png" alt="Kevin Nguyen" class="ui avatar image">
+          <img onclick="myHuynhTruong(2)" src="images/HT-boi.png" alt="Đoàn Trưởng" class="ui avatar image">
         </a>
-        
         <a href="#popup1">
-          <img onclick="myHuynhTruong(3)" src="images/HT-gurl.png" alt="Brain Bui" class="ui avatar image">
+          <img onclick="myHuynhTruong(3)" src="images/HT-gurl.png" alt="Đoàn Phó Quảng Trị" class="ui avatar image">
         </a>
-
         <a href="#popup1">
-          <img onclick="myHuynhTruong(4)" src="images/HT-boi.png" alt="Tony Nguyen" class="ui avatar image">
-        
+          <img onclick="myHuynhTruong(4)" src="images/HT-boi.png" alt="Đoàn Phó Nghiên Huấn" class="ui avatar image">
         <a href="#popup1">
-          <img onclick="myHuynhTruong(5)" src="images/HT-gurl.png" alt="John Do" class="ui avatar image">
+          <img onclick="myHuynhTruong(5)" src="images/HT-gurl.png" alt="Thư Ký" class="ui avatar image">
         </a>
-
         <a href="#popup1">
-          <img onclick="myHuynhTruong(6)" src="images/HT-gurl.png" alt="Nguyen Tran" class="ui avatar image">
+          <img onclick="myHuynhTruong(6)" src="images/HT-gurl.png" alt="Thủ Qũy" class="ui avatar image">
         </a>
-
         <br></br>
-        
         <a href="#popup1">
-          <img onclick="myHuynhTruong(7)" src="images/HT-gurl.png" alt="Jack Nguyen" class="ui avatar image">
+          <img onclick="myHuynhTruong(7)" src="images/HT-gurl.png" alt="Ngành Trưởng Ngành Ấu" class="ui avatar image">
         </a>
-
         <a href="#popup1">
-          <img onclick="myHuynhTruong(8)" src="images/HT-gurl.png" alt="Khoa Nguyen" class="ui avatar image">
+          <img onclick="myHuynhTruong(8)" src="images/HT-gurl.png" alt="Ngành Trưởng Ngành Thiếu" class="ui avatar image">
         </a>
-
         <a href="#popup1">
-          <img onclick="myHuynhTruong(9)" src="images/HT-boi.png" alt="Khoa Nguyen" class="ui avatar image">
+          <img onclick="myHuynhTruong(9)" src="images/HT-boi.png" alt="Ngành Trưởng Ngành Nghĩa" class="ui avatar image">
         </a>
-
         <a href="#popup1">
-          <img onclick="myHuynhTruong(10)" src="images/HT-boi.png" alt="Khoa Nguyen" class="ui avatar image">
+          <img onclick="myHuynhTruong(10)" src="images/HT-boi.png" alt="Ngành Trưởng Hiệp Sỹ" class="ui avatar image">
         </a>
       </h1>
     </div>
@@ -162,25 +150,26 @@
 
   <div id="popup1" class="overlay">
     <div class="popup">
-      <h2 id="name"></h2>
+      <h2 id="info"></h2>
       <a class="close" href="#">&times;</a>
       <div class="content">
-        <p id ="info"></p>
+        <p id ="name"></p>
+        <p id ="fone"></p>
       </div>
     </div>
   </div>
 
   <script>
     function myHuynhTruong(num){
-      var HT_Name = ["Cha Tuong", "So Bernadette", "Steven Tam Le", "Annie Tran",
-            "David Ngo", "Ngoc Le Luu", "Michelle Hang Nguyen", "Lucy Nguyen",
-            "Bj Lam", "Peter Tran", "Long Phan"];
+      var HT_Name = ["Lm. Antôn Nguyễn Duy Tường", "Sơ Bernadette", "Trưởng Antôn Lê Minh Tâm", "Trưởng Anna Trần Annie",
+            "Trưởng Vincente Ngô David", "Trưởng Têrêsa Lưu Ngọc Lệ", "Trưởng Maria Nguyễn Hằng", "Trưởng Maria Nguyễn Lucy",
+            "Trưởng Têrêsa Lâm BJ", "Trưởng Martino Trần Thái", "Trưởng Đaminh Phan Long"];
 
-      var HT_Info = ["Cha Tuan Y","So Tuan Y","Doan Truong", "Doan Pho Quan Tri", "Doan Pho Nghiem Huan", "Thu Ky", "Thu Quy", "Nganh Truong Nganh Nghia",
-            "Nganh Truong Nganh Thieu","Nganh Truong Nganh Thieu", "Nganh Truong Hiep Sy"];
+      var HT_Info = ["Cha Tuyên Úy","Sơ Tuyên Úy","Đoàn Trưởng", "Đoàn Phó Quảng Trị", "Đoàn Phó Nghiên Huấn", "Thư Ký", "Thủ Qũy", "Ngành Trưởng Ngành Ấu",
+            "Ngành Trưởng Ngành Thiếu","Ngành Trưởng Ngành Nghĩa", "Ngành Trưởng Hiệp Sỹ"];
 
-     document.getElementById("name").innerHTML = HT_Name[num];
      document.getElementById("info").innerHTML = HT_Info[num];
+     document.getElementById("name").innerHTML = HT_Name[num];
     }
   </script>
 
