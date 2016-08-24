@@ -13,10 +13,11 @@
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 0em;
   font-size: 3em;
   font-weight: normal;
+  line-height:50%;
 }
 .masthead h2 {
   font-size: 1.7em;
@@ -87,10 +88,8 @@
 }
 
 .ui.inverted.vertical.masthead.center.aligned.segment {
-  background-color: #FFD18C;
-  /*background-image: url(images/DSC_0048.jpg);*/
   background-position: center;
-
+  background-color: #FFD18C;
 }
 .ui.large.secondary.inverted.pointing.menu{
   border: none;

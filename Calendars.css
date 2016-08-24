@@ -112,3 +112,7 @@
   -moz-border-radius: 30px;
   border-radius: 30px;
 }
+
+#moto{
+  text-shadow:1px 1px 25px #000000;
+}

@@ -115,17 +115,22 @@
 
 .Announcements{
   float:left;
-  border-width:3px;
-  border-style: solid;
-  border-color: #42AEFF;
-  border-radius:10px;
-  padding:15px 15px;
+  border-right-width:5px;
+  border-right-style: solid;
+  border-right-color: grey;
+  border-bottom-width:5px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
 }
 
 .PG{
-  border-width:3px;
-  border-style: solid;
-  border-color: #42AEFF;
-  border-radius:10px;
-  padding:15px 15px;
+  border-right-width:5px;
+  border-right-style: solid;
+  border-right-color: grey;
+  border-bottom-width:5px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+}
+
+.ui.large.bordered.rounded.image{
 }
