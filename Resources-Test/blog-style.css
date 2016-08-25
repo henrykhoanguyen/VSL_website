@@ -1,0 +1,143 @@
+
+.article-image > img {
+	margin: 24px auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.entry-header > h2, .entry-header > small {
+	text-align: center;
+	display: block;
+	margin: 16px auto;
+}
+
+
+/* Logo
+--------------------------------------------------------------*/
+
+.pinbin-image img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+
+.pinbin-image {
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+/* Post and page style
+--------------------------------------------------------------*/
+
+#post-area {
+  width: 933px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+	#post-area {
+		width: 624px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	#post-area {
+		width: 300px;
+	}
+}
+
+.type-post {
+  position: relative;
+}
+.pinbin-image img {
+  z-index: 5;
+}
+.pinbin-category {
+  position: absolute;
+  width: auto;
+  background: #000;
+  zoom: 1;
+  filter: alpha(opacity=70);
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+  margin-top: -36px;
+  z-index: 1;
+  height: 30px;
+  overflow: hidden;
+  left: 0;
+}
+.pinbin-category p {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+  color: #fff;
+  font-style: italic;
+}
+.pinbin-category a {
+  color: #fff;
+  font-style: italic;
+  text-decoration: none;
+}
+.pinbin-category a:hover {
+  color: #777;
+  text-decoration: none;
+}
+.pinbin-copy {
+  padding: 20px 8%;
+}
+.pinbin-meta {
+  width: 100%;
+  display: inline-block;
+  color: #8e8e8e;
+  font-size: 11px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  border-bottom: 1px dotted #cccccc;
+}
+.size-full {
+  max-width: 100%;
+
+}
+
+/* Post style on frontpage
+--------------------------------------------------------------*/
+#post-area .post {
+  width: 290px;
+  background: #FFF;
+  margin-right: 20px;
+  margin-top: 15px;
+  position: relative;
+}
+
+#just-text .post {
+  width: 290px;
+  background: #FFF;
+  margin-right: 20px;
+  margin-top: 15px;
+  position: relative;
+}
+
+#post-area .post .pinbin-copy {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  clear: both;
+}
+#post-area .post .pinbin-date {
+  width: 115px;
+  color: #8e8e8e;
+  font-size: 11px;
+  border-bottom: 1px dotted #cccccc;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+

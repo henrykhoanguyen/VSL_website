@@ -105,6 +105,7 @@ background-image:url(http://thedirtonwater.com/wp-content/uploads/2015/05/701582
 #img{
 	width: 50%;
 	height: auto;
+	background-size: cover;
 }
 
 .logo{
