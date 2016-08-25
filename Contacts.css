@@ -13,7 +13,7 @@
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 0em;
   font-size: 3em;
   font-weight: normal;
@@ -90,7 +90,7 @@
 .ui.inverted.vertical.masthead.center.aligned.segment {
   background-position: center;
   background-color: #FFD18C;
-  background-image: url(images/DSC_0320.jpg);
+  background-image: url(images/DSC_0412.jpg);
 }
 .ui.large.secondary.inverted.pointing.menu{
   border: none;
@@ -121,7 +121,7 @@
 }
 
 .popup {
-  margin: 30em auto;
+  margin: 8em auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -130,6 +130,7 @@
   transition: all 5s ease-in-out;
   -webkit-transition: all 5s ease-in-out;
   -moz-transition: all 5s ease-in-out;
+  z-index: 100;
 }
 
 .popup h2 {
@@ -181,4 +182,19 @@
     clear: both;
     z-index: 10;
     height: 4.5em;
+}
+
+.item{
+  font-size: 16px;
+}
+
+#pic{
+  width: 90%;
+  height: auto;
+}
+
+.logo{
+  width: 15%;
+  height: auto;
+  float: left;
 }

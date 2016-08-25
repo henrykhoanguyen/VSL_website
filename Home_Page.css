@@ -132,5 +132,18 @@
   border-bottom-color: grey;
 }
 
-.ui.large.bordered.rounded.image{
+.item{
+  font-size: 16px;
+}
+
+.globalHeader{
+  background-color: #F8F9F9;
+  position: relative;
+  width: 100%;
+}
+
+.logo{
+  width: 15%;
+  height: auto;
+  float: left;
 }
