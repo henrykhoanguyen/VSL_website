@@ -143,7 +143,18 @@
 }
 
 .logo{
-  width: 15%;
+  width: 12%;
   height: auto;
   float: left;
+  z-index: 1000;
+  margin-left: 20em;
+}
+
+#mainlink{
+  margin-bottom: 1em;
+}
+
+#followlink{
+  margin-left: 1em;
+  margin-bottom: 1em;
 }

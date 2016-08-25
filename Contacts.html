@@ -86,15 +86,13 @@
 <!-- Page Contents -->
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment">
-
+    <a href="Home_Page.html"><img src="images/VSLOGO2.png" class="logo"></a>
     <div class="ui container">
       <div class="ui large secondary inverted pointing menu">
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
 
-        <a href="Home_Page.html"><img src="images/VSL_LOGO.png" class="logo"></a>
-        
         <div class="right item">
           <a class="item" href="Home_Page.html">Home</a>
           <a class="item" href="About_Us.html">About Us</a>
@@ -146,44 +144,35 @@
     </div>
   </div>
 
-  <div id="popup1" class="overlay">
     <div class="popup">
       <h2 id="info"></h2>
-      <a class="close" href="#">&times;</a>
       <div class="content">
         <p id ="name"></p>
         <p id ="fone"></p>
         <img src="images/image.svg" alt="Photo can't be loaded" id="pic">
       </div>
     </div>
-  </div>
 
   <script>
     function myHuynhTruong(num){
       var HT_Name = ["Lm. Antôn Nguyễn Duy Tường", "Sơ Bernadette", "Trưởng Antôn Lê Minh Tâm", "Trưởng Anna Trần Annie",
             "Trưởng Vincente Ngô David", "Trưởng Têrêsa Lưu Ngọc Lệ", "Trưởng Maria Nguyễn Hằng", "Trưởng Maria Nguyễn Lucy",
             "Trưởng Têrêsa Lâm BJ", "Trưởng Martino Trần Thái", "Trưởng Đaminh Phan Long", "Trưởng Dominico Bùi Dennis", "Trưởng Giuse Nguyễn Thanh Anh Khoa"];
-
       var HT_Info = ["Cha Tuyên Úy","Sơ Tuyên Úy","Đoàn Trưởng", "Đoàn Phó Quảng Trị", "Đoàn Phó Nghiên Huấn", "Thư Ký", "Thủ Qũy", "Ngành Trưởng Ngành Ấu",
             "Ngành Trưởng Ngành Thiếu","Ngành Trưởng Ngành Nghĩa", "Ngành Trưởng Hiệp Sỹ", "Website Developer", "Website Developer"];
+      var HT_pic = ["images/IMG_7643.jpg","images/DSC_0430.jpg","images/DSC_0040.jpg","images/DSC_0179.jpg","images/Anh-David.jpg",
+            "images/DSC_0077.jpg","images/IMG_8113.jpg","images/IMG_7948.jpg","images/DSC_0777.jpg","images/DSC_0306.jpg",
+            "images/DSC_0267.jpg","images/DSC_0094.jpg","images/DSC_0071.jpg"];
+      var HT_fone = ["###-###-####","###-###-####","###-###-####", "###-###-####", "###-###-####", "###-###-####", "###-###-####", "###-###-####",
+            "###-###-####","###-###-####", "###-###-####", "", "henrykhoanguyen@gmail.com"];
 
-      var HT_pic = ["images/IMG_7643.jpg","images/DSC_0430.jpg","images/DSC_0040.jpg","images/DSC_0179.jpg","images/Anh-David.jpg","images/DSC_0077.jpg","images/IMG_8113.jpg","images/IMG_7948.jpg","images/DSC_0777.jpg","images/DSC_0306.jpg","images/DSC_0267.jpg","images/DSC_0094.jpg","images/DSC_0071.jpg"];
-      
       var image = document.getElementById('pic');
-
       document.getElementById("info").innerHTML = HT_Info[num];
       document.getElementById("name").innerHTML = HT_Name[num];
+      document.getElementById("fone").innerHTML = HT_fone[num];
       image.src = HT_pic[num];
     }
   </script>
-
-  <div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="six wide right floated column"></div>
-      </div>
-    </div>
-  </div>
 
 <!-- FOOTER OF COPYRIGHT FRAGMENT -->
   <div class="ui inverted vertical footer segment">
