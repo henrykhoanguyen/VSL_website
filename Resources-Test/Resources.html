@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Đoàn Thiếu Nhi Thánh Thể Vinh Sơn Liêm</title>
+  <link rel="stylesheet" type="text/css" href="../dist/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="../dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="../dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/sidebar.css">
+  <link rel="stylesheet" type="text/css" href="../dist/components/transition.css">
+
+  <link rel="stylesheet" type="text/css" href="../Home_Page.css">
+  <link rel="stylesheet" type="text/css" href="Resources.css">
+  <link rel="icon" href="../images/VSL_LOGO.png">
+
+  <script src="../assets/library/jquery.min.js"></script>
+  <script src="../dist/components/visibility.js"></script>
+  <script src="../dist/components/sidebar.js"></script>
+  <script src="../dist/components/transition.js"></script>
+  <script>
+  $(document)
+    .ready(function() {
+
+      // fix menu when passed
+      $('.masthead')
+        .visibility({
+          once: false,
+          onBottomPassed: function() {
+            $('.fixed.menu').transition('fade in');
+          },
+          onBottomPassedReverse: function() {
+            $('.fixed.menu').transition('fade out');
+          }
+        })
+      ;
+
+      // create sidebar and attach to menu open
+      $('.ui.sidebar')
+        .sidebar('attach events', '.toc.item')
+      ;
+
+    })
+  ;
+  </script>
+</head>
+
+<body>
+
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+  <div class="ui container">
+    <div class="right menu">
+    <a class="item" href="../Home_Page.html">Home</a>
+    <a class="item" href="../About_Us.html">About Us</a>
+    <a class="item" href="../Calendars.html">Calendars</a>
+    <a class="item" href="../Contacts.html">Contacts</a>
+    <a class="active item">Resources</a>
+    </div>
+  </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  <a class="item" href="../Home_Page.html">Home</a>
+  <a class="item" href="../About_Us.html">About Us</a>
+  <a class="item" href="../Calendars.html">Calendars</a>
+  <a class="item" href="../Contacts.html">Contacts</a>
+  <a class="active item">Resources</a>
+</div>
+
+<!-- Page Contents -->
+<div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment" style="padding-top: 0em;">
+  <a href="Home_Page.html"><img src="../images/VSLOGO2.png" class="logo"></a>
+    <div class="ui container" style="opacity: .7; height: 6em; background-color: white;">
+      <div class="ui large secondary inverted pointing menu">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        
+        <div class="right item">
+          <a class="item" href="../Home_Page.html" style="color: black !important;">Home</a>
+          <a class="item" href="../About_Us.html" style="color: black !important;">About Us</a>
+          <a class="item" href="../Calendars.html" style="color: black !important;">Calendars</a>
+          <a class="item" href="../Contacts.html" style="color: black !important;">Contacts</a>
+          <a class="active item" style="color: black !important; border-color: black;">Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        <a><img src="../images/Resources.png" alt="Calligraphy Fonts"></a>
+      </h1>
+      <h2 id="moto">Học Mà Chơi, Chơi Mà Học</h2>
+    </div>
+
+  </div>
+
+  <!--<div class="top_left_dropdown">
+    <div class="top_left">
+    <div align="center"> 
+      <img src="http://fontmeme.com/embed.php?text=Gospel&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
+    </div>
+    </div>
+    <div class="top_left_dropdown_content">
+      <div align="center">
+      <a href="http://usccb.org/bible/readings/082816.cfm" target="blank"><img src="../images/gospel.jpg" id="img" target="blank">
+      </a>
+    </div>
+  </div>
+  </div>-->
+
+  <section>
+  <div class="title-img" style="background: url('../images/IMG_8100.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+      <a href="http://usccb.org/bible/readings/" target="blank" class="title">
+        <img src="../images/gospel-title.png" alt="Calligraphy Fonts">
+      </a>
+  </div>
+
+    <!--<div align="center">
+      <a href="http://usccb.org/bible/readings/082816.cfm" target="blank"><img src="../images/gospel.jpg" id="img"></a>
+    </div>-->
+  </section>
+  
+  <!--<div class="top_right_dropdown">
+    <div class="top_right">
+    <div align="center"> 
+      <img src="http://fontmeme.com/embed.php?text=Morse&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
+    </div>
+    </div>
+    <div class="top_right_dropdown_content">
+      <div align="center">
+      <img src="../images/morse.gif" id="img">
+    </div>
+  </div>
+</div>-->
+
+  <section>
+    <div class="title-img" style="background: url('http://cdn.pcwallart.com/images/sky-wallpaper-3.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />--> 
+        <button style="border-style: none; background-color: transparent;"><img src="../images/morse-title.png" alt="Calligraphy Fonts" class="title"></button>
+    </div>
+    <script type="text/javascript">
+    $("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".content-box").offset().top},
+        'slow');
+    });
+    </script>
+  </section>
+
+  <!--<div class="bottom_left_dropdown">
+    <div class="bottom_left">
+    <div align="center"> 
+      <img src="http://fontmeme.com/embed.php?text=Semaphore&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
+    </div>
+    </div>
+    <div class="bottom_left_dropdown_content">
+      <div align="center">
+      <img src="../images/Semaphore.jpg" id="img">
+    </div>
+  </div>
+</div>-->
+
+  <section>
+    <div class="title-img" style="background: url('../images/Blue_Ocean_Waves.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
+      <button style="border-style: none; background-color: transparent;"><img src="../images/semaphore-title.png" alt="Calligraphy Fonts" class="title"></button>
+    </div>
+
+    <script type="text/javascript">
+    $("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".content-box").offset().top},
+        'slow');
+    });
+    </script>
+  </section>
+     
+  <!--<div class="bottom_right_dropdown">
+    <div class="bottom_right">
+    <div align="center"> 
+      <img src="http://fontmeme.com/embed.php?text=Knots&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
+    </div>
+    </div>
+    <div class="bottom_right_dropdown_content">
+      <div align="center">
+      <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank"><img src="../images/Knots.jpg" id="img" target="blank">
+      </a>
+    </div>
+  </div>
+</div>-->
+
+  <section>
+    <div class="title-img" style="background: url('http://thedirtonwater.com/wp-content/uploads/2015/05/7015829-spring-grass-wallpaper.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
+      <div align="center"> 
+        <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank"><img src="../images/knots-title.png" alt="Calligraphy Fonts" class="title"></a>
+      </div>
+    </div>
+  </section>
+  
+
+  <div class="content-box"><!--LOAD LAYOUT LIKE CONTACT INSTEAD OF AUTO SCROLL DOWN-->
+    <div align="center">
+     <img src="../images/Knots.jpg" id="img">
+    </div>
+    <br></br>
+    <br></br>
+    <div align="center">
+      <h1>SEMAPHORE</h1>
+      <div><img src="../images/Semaphore.jpg" id="img"></div>
+    </div>
+    <br></br>
+    <br></br>
+    <div align="center">
+      <h1>MORSE</h1>
+      <div><img src="../images/morse.gif" id="img"></div>
+    </div>
+  </div>
+<!-- FOOTER OF COPYRIGHT FRAGMENT -->
+  <div class="ui inverted vertical footer segment">
+    <div id="copyright">Copyright © 2016 Đoàn TNTT Vinh Sơn Liêm. All rights reserved. Powered by Khoa Nguyen & Dennis Bui.</div>
+  </div>
+</div>
+
+  <script src="../dist/components/arrowup.js"></script>
+
+</body>
+
+</html>

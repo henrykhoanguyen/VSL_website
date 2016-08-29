@@ -169,19 +169,18 @@ main#content {
 }
 
 .logo {
-	width: 145px;
+	width: 180px;
 	height: 159px;
 	overflow: hidden;
 	position: relative;
 	-ms-transition: transform 0.4s ease-in-out;
 	-webkit-transition: transform 0.4s ease-in-out;
 	transition: transform 0.4s ease-in-out;
-	
 }
 
 .logo a {
-	width: 15em;
-	height: auto;
+	width: 180px;
+	height: 159px;
 	display: block;
 	background:url('../images/VSLOGO2.png') no-repeat;
 	background-size: cover;

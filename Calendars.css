@@ -13,7 +13,7 @@
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
-  margin-top: 3em;
+  margin-top: 2.75em;
   margin-bottom: 0em;
   font-size: 4em;
   font-weight: normal;
@@ -90,6 +90,7 @@
 }
 .ui.large.secondary.inverted.pointing.menu{
   border: none;
+  margin-right: 20em;
 }
 
 #copyright{
@@ -121,9 +122,10 @@
 }
 
 .logo{
-  width: 12%;
+  width: 15%;
   height: auto;
   float: left;
   z-index: 1000;
   margin-left: 20em;
+  position: relative;
 }
