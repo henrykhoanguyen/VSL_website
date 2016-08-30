@@ -156,7 +156,7 @@
   <section>
     <div class="title-img" style="background: url('http://cdn.pcwallart.com/images/sky-wallpaper-3.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
       <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />--> 
-        <button style="border-style: none; background-color: transparent;"><img src="../images/morse-title.png" alt="Calligraphy Fonts" class="title"></button>
+        <button onclick="myResources(1)" style="border-style: none; background-color: transparent;"><img src="../images/morse-title.png" alt="Calligraphy Fonts" class="title"></button>
     </div>
     <script type="text/javascript">
     $("button").click(function() {
@@ -183,7 +183,7 @@
   <section>
     <div class="title-img" style="background: url('../images/Blue_Ocean_Waves.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
       <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
-      <button style="border-style: none; background-color: transparent;"><img src="../images/semaphore-title.png" alt="Calligraphy Fonts" class="title"></button>
+      <button onclick="myResources(0)" style="border-style: none; background-color: transparent;"><img src="../images/semaphore-title.png" alt="Calligraphy Fonts" class="title"></button>
     </div>
 
     <script type="text/javascript">
@@ -218,9 +218,17 @@
     </div>
   </section>
   
-
+  <section>
+    <div class="title-img" style="background: url('../images/DSC_0636.jpg') 50% 0 repeat fixed; background-position: bottom; background-size:cover;     padding-top: 21.5em; height: 720px;">
+      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
+      <div align="center"> 
+        <button onclick="myResources(2)" style="border-style: none; background-color: transparent;"><img src="../images/Extra.png" alt="Calligraphy Fonts" class="title"></button>
+      </div>
+    </div>
+  </section>
+<br></br>
   <div class="content-box"><!--LOAD LAYOUT LIKE CONTACT INSTEAD OF AUTO SCROLL DOWN-->
-    <div align="center">
+    <!--<div align="center">
      <img src="../images/Knots.jpg" id="img">
     </div>
     <br></br>
@@ -234,7 +242,30 @@
     <div align="center">
       <h1>MORSE</h1>
       <div><img src="../images/morse.gif" id="img"></div>
-    </div>
+    </div>-->
+      <div class= "content" align="center">
+        <h1 id="topic" style="text-align: center;"></h1>
+        <img src="../images/image.svg" alt="Photo can't be loaded" id="pic" style="width: 100%;">
+        <p id='info'></p>
+      </div>
+  <script>
+    function myResources(num){
+      var Rec_pic = ["../images/Semaphore.jpg","../images/morse.gif"];
+      var Rec_title = ["SEMAPHORE", "MORSE", "EXTRA RESOURCES"];
+      var image = document.getElementById('pic');
+      var Rec_extra;
+
+      Rec_extra = "Giáo Sứ Thánh Maria Goretti's website:" + "<br>"
+
+      document.getElementById("topic").innerHTML = Rec_title[num];
+
+      if(num == 2){
+        document.getElementById("info").innerHTML = Rec_extra;
+      }else{
+        image.src = Rec_pic[num];
+      }
+    }
+  </script>
   </div>
 <!-- FOOTER OF COPYRIGHT FRAGMENT -->
   <div class="ui inverted vertical footer segment">
