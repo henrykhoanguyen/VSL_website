@@ -4,6 +4,11 @@
 
 }
 
+.title{
+  width: 100%;
+  height: auto;
+}
+
 .title:hover{
 	opacity:0.7;
 }
@@ -23,7 +28,7 @@
   height: auto;
   float: left;
   z-index: 1000;
-  margin-left: 20em;
+  margin-left: 4em;
   position: relative;
 }
 
@@ -82,8 +87,6 @@
 .content {
   max-height: 50%;
   overflow: auto;
-  text-align: left;
-  padding: 40em;
   padding-top: 0em;
   padding-bottom: 0em;
 }

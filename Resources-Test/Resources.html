@@ -88,10 +88,10 @@
 <!-- Page Contents -->
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment" style="padding-top: 0em;">
-  <a href="Home_Page.html"><img src="../images/VSLOGO2.png" class="logo"></a>
-    <div class="ui container" style="opacity: .7; height: 6em; background-color: white;">
+  <a href="Home_Page.html"><img src="../images/VSLOGO2.png" class="logo"></a> <!--HAVE THIS OUTSIDE OF DIV PUSHER, TRY AROUND-->
+    <div class="ui container" style="opacity: .7; background-color: white;">
       <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
+        <a class="toc item" style="color: black !important; margin-left: 10em;">
           <i class="sidebar icon"></i>
         </a>
         
@@ -114,139 +114,70 @@
 
   </div>
 
-  <!--<div class="top_left_dropdown">
-    <div class="top_left">
-    <div align="center"> 
-      <img src="http://fontmeme.com/embed.php?text=Gospel&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
-    </div>
-    </div>
-    <div class="top_left_dropdown_content">
-      <div align="center">
-      <a href="http://usccb.org/bible/readings/082816.cfm" target="blank"><img src="../images/gospel.jpg" id="img" target="blank">
-      </a>
-    </div>
-  </div>
-  </div>-->
+<!-- START OF CONTENT LOADOUT -->
 
+  <!-- GOSPEL DIV THAT GO TO USCCB -->
   <section>
-  <div class="title-img" style="background: url('../images/IMG_8100.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
-      <a href="http://usccb.org/bible/readings/" target="blank" class="title">
-        <img src="../images/gospel-title.png" alt="Calligraphy Fonts">
-      </a>
-  </div>
-
-    <!--<div align="center">
-      <a href="http://usccb.org/bible/readings/082816.cfm" target="blank"><img src="../images/gospel.jpg" id="img"></a>
-    </div>-->
+    <div class="title-img" style="background: url('../images/IMG_8100.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+        <a href="http://usccb.org/bible/readings/" target="blank">
+          <img src="../images/gospel-title.png" alt="Calligraphy Fonts">
+        </a>
+    </div>
   </section>
-  
-  <!--<div class="top_right_dropdown">
-    <div class="top_right">
-    <div align="center"> 
-      <img src="http://fontmeme.com/embed.php?text=Morse&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
-    </div>
-    </div>
-    <div class="top_right_dropdown_content">
-      <div align="center">
-      <img src="../images/morse.gif" id="img">
-    </div>
-  </div>
-</div>-->
 
+  <!-- MORSE DIV THAT LOAD UP ONCLICK MORSE INFO PIC -->
   <section>
     <div class="title-img" style="background: url('http://cdn.pcwallart.com/images/sky-wallpaper-3.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
-      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />--> 
-        <button onclick="myResources(1)" style="border-style: none; background-color: transparent;"><img src="../images/morse-title.png" alt="Calligraphy Fonts" class="title"></button>
+        <button onclick="myResources(1)" style="border-style: none; background-color: transparent;">
+          <img src="../images/morse-title.png" alt="Calligraphy Fonts" class="title">
+        </button>
     </div>
-    <script type="text/javascript">
-    $("button").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".content-box").offset().top},
-        'slow');
-    });
-    </script>
   </section>
 
-  <!--<div class="bottom_left_dropdown">
-    <div class="bottom_left">
-    <div align="center"> 
-      <img src="http://fontmeme.com/embed.php?text=Semaphore&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
-    </div>
-    </div>
-    <div class="bottom_left_dropdown_content">
-      <div align="center">
-      <img src="../images/Semaphore.jpg" id="img">
-    </div>
-  </div>
-</div>-->
-
+  <!-- SEMAPHORE DIV THAT LOAD UP ONCLICK SEMAPHORE INFO PIC -->
   <section>
     <div class="title-img" style="background: url('../images/Blue_Ocean_Waves.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
-      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
-      <button onclick="myResources(0)" style="border-style: none; background-color: transparent;"><img src="../images/semaphore-title.png" alt="Calligraphy Fonts" class="title"></button>
+      <button onclick="myResources(0)" style="border-style: none; background-color: transparent;">
+        <img src="../images/semaphore-title.png" alt="Calligraphy Fonts" class="title">
+      </button>
     </div>
-
-    <script type="text/javascript">
-    $("button").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".content-box").offset().top},
-        'slow');
-    });
     </script>
   </section>
-     
-  <!--<div class="bottom_right_dropdown">
-    <div class="bottom_right">
-    <div align="center"> 
-      <img src="http://fontmeme.com/embed.php?text=Knots&name=Arizonia-Regular.ttf&size=170&style_color=FFFFFF" alt="Calligraphy Fonts">
-    </div>
-    </div>
-    <div class="bottom_right_dropdown_content">
-      <div align="center">
-      <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank"><img src="../images/Knots.jpg" id="img" target="blank">
-      </a>
-    </div>
-  </div>
-</div>-->
 
+  <!-- KNOTS DIV THAT DIRECT TO A SITE THAT TEACH KNOTS -->
   <section>
     <div class="title-img" style="background: url('http://thedirtonwater.com/wp-content/uploads/2015/05/7015829-spring-grass-wallpaper.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
-      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
-      <div align="center"> 
-        <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank"><img src="../images/knots-title.png" alt="Calligraphy Fonts" class="title"></a>
-      </div>
+      <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank">
+        <img src="../images/knots-title.png" alt="Calligraphy Fonts">
+      </a>
     </div>
   </section>
   
   <section>
-    <div class="title-img" style="background: url('../images/DSC_0636.jpg') 50% 0 repeat fixed; background-position: bottom; background-size:cover;     padding-top: 21.5em; height: 720px;">
-      <!--<img src="http://tinyfootprintcoffee.com/wp-content/uploads/2013/08/about-hero-story.jpg" />-->
-      <div align="center"> 
-        <button onclick="myResources(2)" style="border-style: none; background-color: transparent;"><img src="../images/Extra.png" alt="Calligraphy Fonts" class="title"></button>
-      </div>
+    <div class="title-img" style="background: url('../images/DSC_0636.jpg') 50% 0 repeat fixed; background-position: bottom; background-size:cover; padding-top: 21.5em; height: 720px;">
+        <button onclick="myResources(2)" style="border-style: none; background-color: transparent;">
+          <img src="../images/Extra.png" alt="Calligraphy Fonts" class="title">
+        </button>
     </div>
   </section>
-<br></br>
-  <div class="content-box"><!--LOAD LAYOUT LIKE CONTACT INSTEAD OF AUTO SCROLL DOWN-->
-    <!--<div align="center">
-     <img src="../images/Knots.jpg" id="img">
-    </div>
-    <br></br>
-    <br></br>
-    <div align="center">
-      <h1>SEMAPHORE</h1>
-      <div><img src="../images/Semaphore.jpg" id="img"></div>
-    </div>
-    <br></br>
-    <br></br>
-    <div align="center">
-      <h1>MORSE</h1>
-      <div><img src="../images/morse.gif" id="img"></div>
-    </div>-->
+
+  <!-- ANIMATION TO SCROLL DOWN ON CLICK #lit #itWasSikAFfam -->
+  <script type="text/javascript">
+    $("button").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#content-box").offset().top},
+          'slow');
+    });
+  </script>
+
+  <br></br>
+
+<!-- LOAD OUT INFO -->
+  <div id="content-box">
       <div class= "content" align="center">
         <h1 id="topic" style="text-align: center;"></h1>
-        <img src="../images/image.svg" alt="Photo can't be loaded" id="pic" style="width: 100%;">
-        <p id='info'></p>
+        <p id='info' style="text-align: left; padding-left:23%; font-size:1.25em; font-family: Arial, Helvetica, sans-serif;"></p>
+        <img src="../images/image.svg" id="pic" style="width: 90%;">
       </div>
   <script>
     function myResources(num){
@@ -255,14 +186,26 @@
       var image = document.getElementById('pic');
       var Rec_extra;
 
-      Rec_extra = "Giáo Sứ Thánh Maria Goretti's website:" + "<br>"
+      Rec_extra = "Giáo Sứ Thánh Maria Goretti's website:<br>" + "<a href='http://smgsj.org/' target='_blank'>www.smgsj.org</a><br>" +
+                  "<br>Phong Trào Thiếu Nhi Thánh Thể Việt Nam tại Hoa Kỳ:<br>" + "<a href='http://www.tntt.org/' target='_blank'>Trung Ương</a><br>" +
+                  "<a href='https://www.facebook.com/mientay.pttnttvnhk' target='_blank'>Miền Tây</a><br>" +
+                  "<a href='http://www.tntt.org/regions/' target='_blank'>Other Regions</a><br>" +
+                  "<br>Các Đoàn Bạn Trong Miền Tây:<br>" + "<a href='http://doan-tmt.org/' target='_blank'>Đoàn Tôma Thiện - (408) 291-6280</a><br>" + 
+                  "<a href='http://www.ducmelavangparish.org/hoi_doan/tntt_dunglac.html' target='_blank'>Đoàn Anrê Dũng Lạc San Jose - (408) 291-6280</a></br>" +
+                  "<a href='https://www.facebook.com/tntt.thd' target='_blank'>Đoàn Têrêsa Hài Đồng Giêsu - (408) 729-0101</a><br>" +
+                  "<a href='https://www.facebook.com/ktvsac' target='_blank'>Đoàn Kitô Vua Sacramento - (916) 383-4276</a>" +
+                  "<br>Đoàn Kitô Vua Colorado - (303) 431-0382<br>" + "Đoàn Thánh Linh Fresno - (559) 485-9467<br>" + "Đoàn Anrê Dũng Lạc Hawaii - (808) 521-1700<br>" +
+                  "Đoàn Thánh Linh Baskersfield - (661) 327-4734<br>" + "Đoàn Các Thánh Tử Đạo Việt Nam - (408) 262-8100<br>" + "Đoàn Thánh Martinô - (408) 746-3725<br>" +
+                  "Đoàn Thánh Gioan Phaolô II - (408) 715-2278";
 
       document.getElementById("topic").innerHTML = Rec_title[num];
 
       if(num == 2){
         document.getElementById("info").innerHTML = Rec_extra;
+        image.src = "";
       }else{
         image.src = Rec_pic[num];
+        document.getElementById("info").innerHTML = "";
       }
     }
   </script>
