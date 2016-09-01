@@ -1,101 +1,16 @@
-.top_left{
-height:230px;
-text-align:center;
-background-image:url(images/IMG_8100.jpg);
-background-position: center;
-}
-
-.top_right{
-height:230px;
-text-align:center;
-background-image:url(http://cdn.pcwallart.com/images/sky-wallpaper-3.jpg);
-background-position: center;
-}
-
-.bottom_left{
-height:230px;
-text-align:center;
-background-image:url(images/Blue_Ocean_Waves.jpg);
-background-position: center;
-}
-
-.bottom_right{
-height:230px;
-text-align:center;
-background-image:url(http://thedirtonwater.com/wp-content/uploads/2015/05/7015829-spring-grass-wallpaper.jpg);
-}
-
 .ui.inverted.vertical.masthead.center.aligned.segment {
   background-image: url(images/IMG_8369.jpg);
   background-position: center;
 
 }
 
-.top.left.dropdown{
-	position:relative;
-	display:inline-block;
+.title{
+  width: 100%;
+  height: auto;
 }
 
-.top.right.dropdown{
-	position:relative;
-	display:inline-block;
-}
-
-.bottom.left.dropdown{
-	position:relative;
-	display:inline-block;
-}
-
-.bottom.right.dropdown{
-	position:relative;
-	display:inline-block;
-}
-.top_left:hover{
-	opacity:0.5;
-}
-
-.top_right:hover{
-	opacity:0.5;
-}
-
-.bottom_left:hover{
-	opacity:0.5;
-}
-
-.bottom_right:hover{
-	opacity:0.5;
-}
-
-.top_left_dropdown_content{
-	display: none;
-}
-
-.top_left_dropdown:hover .top_left_dropdown_content{
-	display :block;
-}
-
-.top_right_dropdown_content{
-	display: none;
-}
-
-.top_right_dropdown:hover .top_right_dropdown_content{
-	display :block;
-}
-
-.bottom_left_dropdown_content{
-	display: none;
-}
-
-.bottom_left_dropdown:hover .bottom_left_dropdown_content{
-	display :block;
-}
-
-.bottom_right_dropdown_content{
-	display: none;
-}
-
-.bottom_right_dropdown:hover .bottom_right_dropdown_content{
-	display :block;
+.title:hover{
+	opacity:0.7;
 }
 
 #moto{
@@ -113,6 +28,65 @@ background-image:url(http://thedirtonwater.com/wp-content/uploads/2015/05/701582
   height: auto;
   float: left;
   z-index: 1000;
-  margin-left: 20em;
+  margin-left: 4em;
   position: relative;
+}
+
+.title-img {
+  height: 360px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  display: block;
+  text-align: center;
+  padding-top: 144px;
+}
+
+.title-img > h1 {
+  font-size: 4em;
+  color: #fdf9ef;
+  font-family: "kulturista-web", sans-serif;
+  text-transform: uppercase;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  display: inline;
+  z-index: 3000;
+  line-height: 86px;
+  padding-bottom: 10px;
+}
+
+.title-img > h2 {
+	font-size: 3em;
+	color: #EA7259;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 960px) {
+	.title-img > h1 {
+		font-size: 3.4em;
+	}
+}
+
+.title-img > h1 {
+	font-size: 2.6em;
+	line-height: 1.5;
+}
+
+.in-block {
+	margin-bottom: 16px;
+}
+
+.big-text { 
+ 	font-size: 1.1em;
+}
+
+.big-text {
+  font: normal 1.4em/1.6 "proxima-nova",sans-serif;
+  letter-spacing: .07em;
+}
+
+.content {
+  max-height: 50%;
+  overflow: auto;
+  padding-top: 0em;
+  padding-bottom: 0em;
 }

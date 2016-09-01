@@ -85,9 +85,8 @@
 
 .ui.inverted.vertical.masthead.center.aligned.segment {
   background-color:#FFD18C;
-  background-image: url(images/DSC_0972.jpg);
+  background-image: url(images/IMG_7919.jpg);
   background-position: center;
-
 }
 .ui.large.secondary.inverted.pointing.menu{
   border: none;
@@ -114,33 +113,12 @@
   border-radius: 30px;
 }
 
-.Announcements{
-  float:left;
-  border-right-width:5px;
-  border-right-style: solid;
-  border-right-color: grey;
-  border-bottom-width:5px;
-  border-bottom-style: solid;
-  border-bottom-color: grey;
-}
-
-.PG{
-  border-right-width:5px;
-  border-right-style: solid;
-  border-right-color: grey;
-  border-bottom-width:5px;
-  border-bottom-style: solid;
-  border-bottom-color: grey;
+#moto{
+  text-shadow:1px 1px 25px #000000;
 }
 
 .item{
   font-size: 16px;
-}
-
-.globalHeader{
-  background-color: #F8F9F9;
-  position: relative;
-  width: 100%;
 }
 
 .logo{
@@ -152,11 +130,18 @@
   position: relative;
 }
 
-#mainlink{
-  margin-bottom: 1em;
+.alpha{
+  font-size:20px;
 }
 
-#followlink{
-  margin-left: 1em;
-  margin-bottom: 1em;
+.spacex{
+  height:70px;
+}
+
+.spacex1{
+  height:120px;
+}
+
+.gap{
+  margin-left:10em;
 }

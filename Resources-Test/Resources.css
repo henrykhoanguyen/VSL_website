@@ -58,7 +58,7 @@
 .title-img > h2 {
 	font-size: 3em;
 	color: #EA7259;
-  	text-transform: uppercase;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 960px) {
 	.title-img > h1 {

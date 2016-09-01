@@ -1,5 +1,6 @@
-.hidden.menu {
-  display: none;
+.hidden.menu 
+{
+      display: none;
 }
 
 .masthead.segment {
@@ -83,20 +84,24 @@
   }
 }
 
-.ui.inverted.vertical.masthead.center.aligned.segment {
+.ui.inverted.vertical.masthead.center.aligned.segment{
   background-color:#FFD18C;
-  background-image: url(images/DSC_0972.jpg);
+  background-image:url(images/DSC_0259.jpg);
   background-position: center;
-
 }
+
 .ui.large.secondary.inverted.pointing.menu{
-  border: none;
+  border-style:none;
   margin-right: 20em;
+}
+
+.ui.large.top.fixed.hidden.menu{
+  color:#42AEFF;
 }
 
 #copyright{
   font-size: .75em;
-  margin-left: 10em;
+  margin-left:10em;
 }
 
 .back-to-top {
@@ -114,33 +119,8 @@
   border-radius: 30px;
 }
 
-.Announcements{
-  float:left;
-  border-right-width:5px;
-  border-right-style: solid;
-  border-right-color: grey;
-  border-bottom-width:5px;
-  border-bottom-style: solid;
-  border-bottom-color: grey;
-}
-
-.PG{
-  border-right-width:5px;
-  border-right-style: solid;
-  border-right-color: grey;
-  border-bottom-width:5px;
-  border-bottom-style: solid;
-  border-bottom-color: grey;
-}
-
 .item{
   font-size: 16px;
-}
-
-.globalHeader{
-  background-color: #F8F9F9;
-  position: relative;
-  width: 100%;
 }
 
 .logo{
@@ -148,15 +128,69 @@
   height: auto;
   float: left;
   z-index: 1000;
-  margin-left: 4em;
+  margin-left: 20em;
   position: relative;
 }
 
-#mainlink{
-  margin-bottom: 1em;
+.Nganh_info{
+  font-size:3em;
 }
 
-#followlink{
-  margin-left: 1em;
-  margin-bottom: 1em;
+.ui.avatar.image{
+  width:5em;
+  height:auto;
+}
+
+.AN_CENTER{
+  text-align:center;
+  width:75%;
+  padding:15px 15px;
+  font-size:0.5em;
+}
+
+.TN_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.NS_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.HS_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.HT_CENTER{
+  text-align:center;
+  width:75%;
+  padding:15px 15px;
+  font-size:0.5em;
+}
+
+#strip1{
+  background-color:#BDEDAF;
+  height:525px;
+}
+
+#strip2{
+  background-color:#7EC1FC;
+  height:800px;
+}
+
+#strip3{
+  background-color:#F1F176;
+  height:1000px;
+}
+
+#strip4{
+  background-color:#AB9474;
+  height:610px;
+}
+
+#strip5{
+  background-color:#E47272;
+  height:570px;
 }

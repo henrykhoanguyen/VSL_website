@@ -128,6 +128,70 @@
   height: auto;
   float: left;
   z-index: 1000;
-  margin-left: 20em;
+  margin-left: 4em;
   position: relative;
+}
+
+
+.Nganh_info{
+  font-size:3em;
+}
+
+.ui.avatar.image{
+  width:5em;
+  height:auto;
+}
+
+.AN_CENTER{
+  text-align:center;
+  width:75%;
+  padding:15px 15px;
+  font-size:0.5em;
+}
+
+.TN_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.NS_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.HS_CENTER{
+  text-align:center;
+  width:75%;
+}
+
+.HT_CENTER{
+  text-align:center;
+  width:75%;
+  padding:15px 15px;
+  font-size:0.5em;
+}
+
+#strip1{
+  background-color:#BDEDAF;
+  height:525px;
+}
+
+#strip2{
+  background-color:#7EC1FC;
+  height:800px;
+}
+
+#strip3{
+  background-color:#F1F176;
+  height:1000px;
+}
+
+#strip4{
+  background-color:#AB9474;
+  height:610px;
+}
+
+#strip5{
+  background-color:#E47272;
+  height:570px;
 }
