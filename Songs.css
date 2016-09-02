@@ -85,8 +85,9 @@
 
 .ui.inverted.vertical.masthead.center.aligned.segment {
   background-color:#FFD18C;
-  background-image: url(images/IMG_7919.jpg);
-  background-position: center;
+  background-image: url(images/DSC_0696.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
 .ui.large.secondary.inverted.pointing.menu{
   border: none;

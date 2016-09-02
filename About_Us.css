@@ -135,6 +135,7 @@
 
 .Nganh_info{
   font-size:3em;
+  margin-top: -.5em;
 }
 
 .ui.avatar.image{
@@ -173,4 +174,50 @@
 #strip5{
   background-color:#E47272;
   display: table;
+}
+
+.title-img {
+  height: 5.5em;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  display: block;
+  text-align: center;
+}
+
+.title-img > h1 {
+  font-size: 4em;
+  color: #fdf9ef;
+  font-family: "kulturista-web", sans-serif;
+  text-transform: uppercase;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  display: inline;
+  z-index: 3000;
+  line-height: 86px;
+  padding-bottom: 10px;
+  padding-top: 16px;
+}
+
+.title-img > h2 {
+  font-size: 3em;
+  color: #EA7259;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 960px) {
+  .title-img > h1 {
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width: 965px){
+  .title-img > h1 {
+    font-size: 100%
+  }
+}
+
+@media screen and (orientation: landscape){
+  .title-img > h1 {
+    font-size: 100%
+  }
 }

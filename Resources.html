@@ -88,7 +88,7 @@
 <!-- Page Contents -->
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment" style="padding-top: 0em;">
-  <a href="Home_Page.html"><img src="images/VSLOGO2.png" class="logo"></a> <!--HAVE THIS OUTSIDE OF DIV PUSHER, TRY AROUND-->
+  <a href="Home_Page.html"><img src="images/VSLOGO2.png" class="logo"></a> 
     <div class="ui container" style="opacity: .7; background-color: white; margin-left: 0 !important; margin-right: 0 !important;">
       <div class="ui large secondary inverted pointing menu">
         <a class="toc item" style="color: black !important; margin-left: 10em;">
@@ -116,12 +116,14 @@
 
 <!-- START OF CONTENT LOADOUT -->
 
-  <!-- GOSPEL DIV THAT GO TO USCCB -->
+  <!-- GOSPEL DIV THAT GO TO USCCB ONCLICK-->
   <section>
     <div class="title-img" style="background: url('images/IMG_8100.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
+      <div class="ui text container">
         <a href="http://usccb.org/bible/readings/" target="blank">
-          <img src="images/gospel-title.png" alt="Calligraphy Fonts">
+          <img src="images/gospel-title.png" alt="Calligraphy Fonts" id="title">
         </a>
+      </div>
     </div>
   </section>
 
@@ -129,7 +131,7 @@
   <section>
     <div class="title-img" style="background: url('http://cdn.pcwallart.com/images/sky-wallpaper-3.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
         <button onclick="myResources(1)" style="border-style: none; background-color: transparent;">
-          <img src="images/morse-title.png" alt="Calligraphy Fonts" class="title">
+          <img src="images/morse-title.png" alt="Calligraphy Fonts" id="title">
         </button>
     </div>
   </section>
@@ -138,25 +140,38 @@
   <section>
     <div class="title-img" style="background: url('images/Blue_Ocean_Waves.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
       <button onclick="myResources(0)" style="border-style: none; background-color: transparent;">
-        <img src="images/semaphore-title.png" alt="Calligraphy Fonts" class="title">
+        <img src="images/semaphore-title.png" alt="Calligraphy Fonts" id="title">
       </button>
     </div>
-    </script>
   </section>
 
   <!-- KNOTS DIV THAT DIRECT TO A SITE THAT TEACH KNOTS -->
   <section>
-    <div class="title-img" style="background: url('http://thedirtonwater.com/wp-content/uploads/2015/05/7015829-spring-grass-wallpaper.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 17.5em; height: 720px;">
-      <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank">
-        <img src="images/knots-title.png" alt="Calligraphy Fonts">
-      </a>
+    <div class="title-img" style="background: url('http://thedirtonwater.com/wp-content/uploads/2015/05/7015829-spring-grass-wallpaper.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 15.5em; height: 720px;">
+      <div class="ui text container">
+        <a href="http://www.animatedknots.com/indexbasics.php#ScrollPoint" target="blank">
+          <img src="images/knots-title.png" alt="Calligraphy Fonts" id="title">
+        </a>
+      </div>
     </div>
   </section>
-  
+
+  <!-- SONGS DIV THAT DIRECT TO A SITE THAT TEACH SONGS -->
+  <section>
+    <div class="title-img" style="background: url('images/DSC_0684.jpg') 50% 0 repeat fixed; background-size:cover; padding-top: 15.5em; height: 720px;">
+      <div class="ui text container">
+        <a href="Songs.html">
+          <img src="images/song-title.png" alt="Calligraphy Fonts" id="title">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXTRA DIV THAT LOAD UP ONCLICK EXTRA CONTENT -->
   <section>
     <div class="title-img" style="background: url('images/DSC_0636.jpg') 50% 0 repeat fixed; background-position: bottom; background-size:cover; padding-top: 21.5em; height: 720px;">
         <button onclick="myResources(2)" style="border-style: none; background-color: transparent;">
-          <img src="images/Extra.png" alt="Calligraphy Fonts" class="title">
+          <img src="images/Extra.png" alt="Calligraphy Fonts" id="title">
         </button>
     </div>
   </section>
