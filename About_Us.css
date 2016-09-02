@@ -142,56 +142,35 @@
   height:auto;
 }
 
-.AN_CENTER{
+.alignment{
   text-align:center;
   width:75%;
   padding:15px 15px;
   font-size:0.5em;
-}
-
-.TN_CENTER{
-  text-align:center;
-  width:75%;
-}
-
-.NS_CENTER{
-  text-align:center;
-  width:75%;
-}
-
-.HS_CENTER{
-  text-align:center;
-  width:75%;
-}
-
-.HT_CENTER{
-  text-align:center;
-  width:75%;
-  padding:15px 15px;
-  font-size:0.5em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #strip1{
   background-color:#BDEDAF;
-  height:525px;
+  display: table;
 }
 
 #strip2{
   background-color:#7EC1FC;
-  height:800px;
+  display: table;
 }
 
 #strip3{
   background-color:#F1F176;
-  height:1000px;
+  display: table;
 }
 
 #strip4{
   background-color:#AB9474;
-  height:610px;
+  display: table;
 }
 
 #strip5{
   background-color:#E47272;
-  height:570px;
+  display: table;
 }
