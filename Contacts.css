@@ -147,24 +147,6 @@
   text-align: left;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
 .ui.inverted.vertical.footer.segment{
     clear: both;
     z-index: 10;
