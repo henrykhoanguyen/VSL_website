@@ -140,8 +140,8 @@
   height:70px;
 }
 
-.spacex1{
-  height:120px;
+#spacex1{
+  height:4em;
 }
 
 #content h2 {
@@ -152,7 +152,7 @@
 }
 
 #content {
-  max-height: 50%;
+  max-height: 100%;
   overflow: auto;
   text-align: left;
 }

@@ -27,12 +27,119 @@ function mySongs (pos) {
 
 				"When He rolls up His sleeves<br>He ain't just puttin' on the Ritz<br>(our God is an Awesome God)<br>There is thunder in His footsteps<br>And lightning in His fists<br>(our God is an Awesome God)<br>Well the Lord He wasn't jokin'<br>when He kicked 'em out of Eden<br>It wasn't for no reason that He shed His blood<br>His return is very close and so you better be believin'<br>That our God is an Awesome God<br><br>[REFRAIN]<br>Our God (our god) is an Awesome God<br>He Reigns (he reigns) from heaven above<br>With Wisdom (with wisdom) pow'r and love<br>Our God is an Awesome God<br><br>When the sky was starless in the void of the night<br>(our god is an awesome god)<br>He spoke into the darkness and created the light<br>(our god is an awesome god)<br>Judgement and wrath He poured out the Sodom<br>Mercy and grace He gave us at the cross<br>I hope that we have not too quickly forgotten that<br>Our God is an Awesome God<br><br>[REFRAIN x3]"]
 	};
-	
+	var songB = {
+		titles: ["Bác Ái","Bài Ca Thân Ái","Bà Ngồi Bà Rung Đùi","Bàn Tay Của Bé","Bàn Tay Xây Dựng","Bắt Cua",
+				"Bảy Ơn Đức Chúa Thánh Thần","Bé Muốn Lên Thiên Ðàng","Bên Sông Jordan","Bí Bo Xình Xịch","Bốn Phương Trời",
+				"Bông Hoa Ðẹp","Bước Chân Cho Ðều 1","Bướm Vàng","Bên Nhau"],
+		
+		lyrics: ["","","","","","","","","","","","","","","","","","","","","","","","","",""]
+	};
+
+	var songC = {
+	};
+
+	var songD = {
+	};
+
+	var songE ={
+
+	};
+
+	var songF = {
+
+	};
+
+	var songG = {
+
+	};
+
+	var songH = {
+
+	};
+
+	var songI = {
+
+	};
+
+	var songJ = {
+
+	};
+
+	var songK = {
+
+	};
+
+	var songL = {
+
+	};
+
+	var songM = {
+
+	};
+
+	var songN = {
+
+	};
+
+	var songO = {
+
+	};
+
+	var songP = {
+
+	};
+
+	var songQ = {
+
+	};
+
+	var songR = {
+
+	};
+
+	var songS = {
+
+	};
+
+	var songT = {
+
+	};
+
+	var songU = {
+
+	};
+
+	var songV = {
+
+	};
+
+	var songW = {
+
+	};
+
+	var songX = {
+
+	};
+
+	var songY = {
+
+	};
+
+	var songZ = {
+		
+	};
+
 	var song = [songA, songB, songC, songD, songE, songF, songG, songH, songI, songJ, songK, songL, songM,
 				songN, songO, songP, songQ, songR, songS, songT, songU, songV, songW, songX, songY,songZ];
 
+	var letter: ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
+	var page = "";
+
     for(var i = 0; i < song[pos].titles.length; i++){
-	    document.write("<h3 style='margin:0em;'>" + song[pos].titles[i] + "</h3>" + song[pos].lyrics[i] + "<br><br>");
+	    page += "<h3 style='margin:0em;'>" + song[pos].titles[i] + "</h3>" + song[pos].lyrics[i] + "<br><br>";
     }
 
+    document.getElementById("letter").innerHTML = letter[pos];
+    document.getElementById("allSongs").innerHTML = page;
 }

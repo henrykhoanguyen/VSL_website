@@ -88,7 +88,7 @@
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment" style="padding-top:0em;">
     <a href="Home_Page.html"><img src="images/VSLOGO2.png" class="logo"></a>
-    <div class="ui container" style="opacity: .7; background-color:white;">
+    <div class="ui container" style="opacity: .7; background-color:white; margin-left: 0 !important; margin-right: 0 !important;">
       <div class="ui large secondary inverted pointing menu">
         <a class="toc item" style="color: black !important; margin-left: 10em;">
           <i class="sidebar icon"></i>
@@ -116,53 +116,46 @@
   <div class="spacex"></div>
     <div class="alpha">
       <div align="center">
-      <a href="#content">|  #  </a> |
-      <a href="#content">  A  </a> |
-      <a href="#content">  B  </a> |
-      <a href="#content">  C  </a> |
-      <a href="#content">  D  </a> |
-      <a href="#content">  E  </a> |
-      <a href="#content">  F  </a> |
-      <a href="#content">  G  </a> |
-      <a href="#content">  H  </a> |
-      <a href="#content">  I  </a> |
-      <a href="#content">  J  </a> |
-      <a href="#content">  K  </a> |
-      <a href="#content">  L  </a> |
-      <a href="#content">  M  </a> |
-      <a href="#content">  N  </a> |
-      <a href="#content">  O  </a> |
-      <a href="#content">  P  </a> |
-      <a href="#content">  Q  </a> |
-      <a href="#content">  R  </a> |
-      <a href="#content">  S  </a> |
-      <a href="#content">  T  </a> |
-      <a href="#content">  U  </a> |
-      <a href="#content">  V  </a> |
-      <a href="#content">  W  </a> |
-      <a href="#content">  X  </a> |
-      <a href="#content">  Y  </a> |
-      <a href="#content">  Z  </a> |
+      <a href="#spacex1">|  #  </a> |
+      <a href="#spacex1" onclick="mySongs(0)">  A  </a> |
+      <a href="#spacex1" onclick="mySongs(1)">  B  </a> |
+      <a href="#spacex1" onclick="mySongs(2)">  C  </a> |
+      <a href="#spacex1" onclick="mySongs(3)">  D  </a> |
+      <a href="#spacex1" onclick="mySongs(4)">  E  </a> |
+      <a href="#spacex1" onclick="mySongs(5)">  F  </a> |
+      <a href="#spacex1" onclick="mySongs(6)">  G  </a> |
+      <a href="#spacex1" onclick="mySongs(7)">  H  </a> |
+      <a href="#spacex1" onclick="mySongs(8)">  I  </a> |
+      <a href="#spacex1" onclick="mySongs(9)">  J  </a> |
+      <a href="#spacex1" onclick="mySongs(10)">  K  </a> |
+      <a href="#spacex1" onclick="mySongs(11)">  L  </a> |
+      <a href="#spacex1" onclick="mySongs(12)">  M  </a> |
+      <a href="#spacex1" onclick="mySongs(13)">  N  </a> |
+      <a href="#spacex1" onclick="mySongs(14)">  O  </a> |
+      <a href="#spacex1" onclick="mySongs(15)">  P  </a> |
+      <a href="#spacex1" onclick="mySongs(16)">  Q  </a> |
+      <a href="#spacex1" onclick="mySongs(17)">  R  </a> |
+      <a href="#spacex1" onclick="mySongs(18)">  S  </a> |
+      <a href="#spacex1" onclick="mySongs(19)">  T  </a> |
+      <a href="#spacex1" onclick="mySongs(20)">  U  </a> |
+      <a href="#spacex1" onclick="mySongs(21)">  V  </a> |
+      <a href="#spacex1" onclick="mySongs(22)">  W  </a> |
+      <a href="#spacex1" onclick="mySongs(23)">  X  </a> |
+      <a href="#spacex1" onclick="mySongs(24)">  Y  </a> |
+      <a href="#spacex1" onclick="mySongs(25)">  Z  </a> |
       </div>
     </div>
 
-    <div class="spacex1"></div>
-
-    <script type="text/javascript">
-    $("button").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#content").offset().top},
-            'fast');
-    });
-
-
-    </script>
+    <div id="spacex1"></div>
 
 <!--FIX THIS-->
+
     <div id="content">
-    <!--<h2><script type="text/javascript" src="dist/components/alltitles.js"></script></h2>-->
-     <p><script type="text/javascript" src="dist/components/allsongs.js"></script></p>
+      <h2 id="letter"></h2>
+      <p id="allSongs"></p>
     </div>
+
+    <script type="text/javascript" src="dist/components/allsongs.js"></script>
 
 <!-- FOOTER OF COPYRIGHT FRAGMENT -->
   <div class="ui inverted vertical footer segment">
