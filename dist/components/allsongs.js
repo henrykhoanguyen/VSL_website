@@ -542,7 +542,7 @@ function mySongs (pos) {
 				"Sing Halleluia to the Lord<br>Sing Halleluia to the Lord<br>Sing Halleluia, sing halleluia.<br>Sing Halleluia to the Lord<br><br>Hát Halleluia ngợi Chúa Cha.<br>Hát Halleluia ngợi Giêsu<br>Cùng nhau hát vang tôn thờ.<br> Cùng nhau hát vang ca ngợi<br>Hát Halleluia nơi Chúa Cha."]
 	};
 
-	/*songT = {
+	songT = {
 		titles: [],
 		lyrics: []
 	};
@@ -572,22 +572,28 @@ function mySongs (pos) {
 		lyrics: []
 	};
 
-	songZ = {
-		titles: [],
-		lyrics: []
-	};*/
-
 	var song = [songA, songB, songC, songD, songE, songF, songG, songH, songI, songJ, songK, songL, songM,
-				songN, songO, songP, songQ, songR, songS/*, songT, songU, songV, songW, songX, songY,songZ*/];
+				songN, songO, songP, songQ, songR, songS, songT, songU, songV, songW, songX, songY];
 
 	var letter = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
 	var page = "";
 
-    for(var i = 0; i < song[pos].titles.length; i++){
-	    page += "<h3 style='margin:0em;'>" + song[pos].titles[i] + "</h3>" + song[pos].lyrics[i] + "<br><br>";
-    }
+	if(pos != 25){
+		for(var i = 0; i < song[pos].titles.length; i++){
+	    	page += "<h3 style='margin:0em;'>" + song[pos].titles[i] + "</h3>" + song[pos].lyrics[i] + "<br><br>";
+    	}
 
-    document.getElementById("letter").innerHTML = letter[pos];
-    document.getElementById("allSongs").innerHTML = page;
+    	document.getElementById("letter").innerHTML = letter[pos];
+    	document.getElementById("allSongs").innerHTML = page;
+	}else{
+		for(var i = 0; i < song.length; i++){
+			for(var u = 0; u < song[i].titles.length; u++){
+				page += "<h3 style='margin:0em;'>" + song[i].titles[u] + "</h3>" + song[i].lyrics[u] + "<br><br>";
+			}
+	    }
+
+	    document.getElementById("letter").innerHTML = "TẤT CẢ CÁC BÀI HÁT THIẾU NHI";
+	    document.getElementById("allSongs").innerHTML = page;
+	}
 }
