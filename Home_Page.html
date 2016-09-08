@@ -33,6 +33,7 @@
   <script src="dist/components/visibility.js"></script>
   <script src="dist/components/sidebar.js"></script>
   <script src="dist/components/transition.js"></script>
+
   <script>
   $(document)
     .ready(function() {
@@ -61,17 +62,6 @@
 </head>
 
 <body>
-
-<!-- Facebook Announcements -->
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
@@ -154,7 +144,37 @@
             <a href="https://www.instagram.com/thieu_nhi_thanh_the/" target="blank">
               <img src="images/instagram.svg" alt="TNTT Instagram Page" class="ui avatar image" id="followlink">
             </a>
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTNTT-Vinh-S%25C6%25A1n-Li%25C3%25AAm-249522558412572%2F%3Ffref%3Dts&tabs=timeline&width=500&height=650&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="605" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+            <button class="accordion">Registration Form</button>
+            <div class="panel">
+              <br>
+                <li style="text-align:left; font-size:1.25em;">View <a href="Don-Dang-Ky-Registration.PDF" target="_blank">form</a></li><br>
+                <li style="text-align:left; font-size:1.25em;">Download <a href="Don-Dang-Ky-Registration.PDF" download>here</a></li>
+              <br>
+            </div>
+
+            <button class="accordion">New Year New Me!</button>
+            <div class="panel">
+              <br>
+              <p style="text-align:left;">Một mùa hè nữa lại trôi qua và năm học mới sắp bắt đầu, các em thiếu nhi đã chuẩn bị gì cho năm học mới rồi?<br>Đoàn Thiếu Nhi Thánh Thể Vinh Sơn Liêm chào mừng phụ huynh và các em quay lại với một mùa sinh hoạt mới, vui nhộn, và đầy hồng ân Thiên Chúa.<br>Ngày sinh hoạt đầu tiên (First Day of Sinh Hoạt): 9-17-2016<br><b>Ngày cuối để ghi danh (Last Day of Registration): 10-22-2016</b><br><b>Lễ Bổn Mạng 35 Đoàn Thiếu Nhi Vinh Sơn Liêm: 11-5-2016</b><br><br>ARE YOU EXCITED, CÁC EM? :D</p>
+              <br>
+            </div>
+
+            <button class="accordion">Calendars</button>
+            <div class="panel">
+              <p style="text-align:left;">Ngày sinh hoạt (Sinh Hoạt Date):<br>9-17-2016<br>9-24-2016<br>10-1-2016<br>10-8-2016<br>10-15-2016: Phụ Huynh Meeting<br>10-22-2016: Last Day of Registration<br>10-29-2016<br>11-5-2016: Lễ Bổn Mạng thứ 35!!!<br>...<a href="Calendars.html" target="_blank"> see more</a></p>
+            </div>
+
+            <button class="accordion">Section 4</button>
+            <div class="panel">
+              <p style="text-align:left;">Lorem ipsum...</p>
+            </div>
+
+            <button class="accordion">Section 5</button>
+            <div class="panel">
+              <p style="text-align:left;">Lorem ipsum...</p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -168,6 +188,18 @@
 </div>
 
   <script src="dist/components/arrowup.js"></script>
+  <script type="text/javascript">
+  /* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("show");
+      }
+  }
+  </script>
 
 </body>
 

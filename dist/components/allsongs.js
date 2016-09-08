@@ -543,8 +543,37 @@ function mySongs (pos) {
 	};
 
 	songT = {
-		titles: [],
-		lyrics: []
+		titles: ["Ta Hát To","Ta Lên Thiên Cung","Tang Tang Tang Tình","Tạm Biệt","Tâm Ca Samaritano","Ta Về Mởi Hội Tình Thương","Thằn Lằn Con","The More We Get Together","Thiên Đàn Búp Bê","Thiếu Nhi Ca","Thiếu Nhi Cầu Nguyện","Thiếu Nhi Hành Khúc","Thiếu Nhi Tân Hành Ca","Thiếu Nhi Việt Nam","This is the Day","Thổi Kèn","Thương Quá Việt Nam","Tiếng Gọi Truyền Giáo","Tiếng Hát Ca Dao","Tiếng Hát Em","Tiến Mau Lên Nhé!","Tiếng Hát Ca Dao","Tìm Chân Lý","Tim Ghen Ghét","Tìm Thiên Chúa","Tình Ca Trên Cát","Tình Mẹ Con","Tôi Trồng Anh Cấy","Tội Truyền"],
+
+		lyrics: ["Ta hát to hát nhỏ nhỏ nhỏ<br>Rồi mình ngồi kể chuyện cho nhau nghe<br>Ô ố ô ồ, Ô ố ô ồ<br>Ta vui ta hát, hát cho vui đời ta.",
+				"Nào ta leo lên thang Gia-cóp<br>với các Thiên Thần ca múa vui chơi.<br>Hát vang lên bên cửa Thiên Đàng,<br>xem Chúa Giê-su có nhà không nhé.<br>Và hỏi thăm trăng sao<br>xem có mấy dám mây hồng bay đến nơi đâu?<br>Đám mây kia theo Chúa Giê-Su<br>bay về Việt Nam để ban ơn phúc cho muôn dân.",
+				"Tang tang tang tình tang tính<br>Ta ca ta hát vang lên<br>Hát lên cho đời tươi thắm<br>Hát lên cho quên nhọc nhằn.<br><br>Cùng nhau ta ca hát lên<br>Cho át tiếng chim trong rừng<br>Cho tiếng suối reo phải ngừng<br>Cho rừng xanh đón chờ ta la la la<br><br>Con trâu con bò con cá<br>Con cua nó cắp con tôm<br>Cắp cho con gà nó gáy<br>Gáy cho con trâu đi cày<br><br>Cùng nhau ta ca hát lên...",
+				"Lúc thú vui này lòng còn quyến luyến anh em chúng mình<br>Lúc thú vui lòng còn những muốn anh em thấu tình <br>Rời tay nhau nhớ lâu nhé<br>Tình anh em chớ quyên nhé <br>Lòng anh em nhớ nhau tuy xa mà hoa ra gần.",
+				"Sa-ma-ri-ta-nô! Sa-ma-ri-ta-nô! Đã yêu anh em bằng con tim. Bằng muôn hy sinh<br> đượm tình người. Ôi đẹp thay nghĩa cử, ôi đẹp thay đôi bàn tay: Đôi bàn tay nở hoa tình<br> thương, đôi bàn tay nở hoa tình người. Sa-ma-ri-ta-nô! Sa-ma-ri-ta-nô. Yêu<br> người, yêu người như là anh em. Yêu người như yêu mình. Sa-ma-ri-ta-nô! Sa-(3 lần).",
+				"Về gặp nhau ta mở hội Tình Thương.<br>Trời mây nước lòng ta vấn vương. <br>Về gặp nhau ta mở hội Tình Thương.<br>Tình thân ái tràn lan ngàn phương. <br><br>Anh em hát lên hòa lời ca vang tới mây ngàn.<br>Cho triều dâng nhấp nhô cuồn cuộn sóng reo vui. <br>Cho trời thêm xanh và trần gian thêm rộng<br>Cho lòng ta tình thương mến dâng đầy.",
+				"Hai con thằn lằn con, đùa nhau cắn nhau đứt đuôi. Cha thằn lằn buồn thiu, gọi chúng <br>đến, mới mắng cho. Hai con thằn lằn con, đuôi thì to nhưng lại cụt rôì. Ôi đớn đau <br>qúa trời, thằn lằn ta khóc la tơi bời.",
+				"Càng đông chúng ta càng vui nhiều, càng vui nhiều, càng vui nhiều<br>Càng đông chúng ta càng vui nhiều, càng biết nhiều càng vui<br>Càng đông nhiều, càng vui nhiều, càng biết nhiều, càng mến nhiều<br>Càng đông chúng ta càng vui nhiều, càng biế nhiều, càng hay<br><br>The more we get together, together, together<br>The more we get together, the happier we are<br>For my friends are your friends and your friends are my friends<br>The more we get together, the happier we'll be",
+				"Em có Ba là em có Má<br>Má yêu em như suối trên nguồn.<br>Từ ngày sinh ra Mẹ nâng như trứng.<br>Mẹ hứng như hoa Mẹ ôm vào lòng.<br><br>Em có anh là anh chị em của bé.<br>Bé yêu thương như chính thân mình.<br>Cuộc đời sinh ra tình yêu trái chín.<br>Mình hái cho nhau, tình gia đình mình.<br><br>Em có ông là ông bà em thương mến, <br>Suốt ba năm em sống với bà. <br>Từ ngày sinh ra thường hay khóc mếu.<br> Đòi mãi ăm thêm lần đi chợ về.",
+				"Em Thiếu Nhi ơi, như ngàn tia sáng huy hoàng,<br>vào buổi rạng đông đến mang nguồn hơi ấm.<br>Em Thiếu Nhi ơi, em đẹp như hoa hướng dương,<br>tươi dịu như hơi gió xuân, đem yên vui đến muôn người.<br>Em Thiếu Nhi ơi, mắt nhìn em ví sao trời, <br>nụ cười trên môi xóa tan màu u tối.<br>Em Thiếu Nhi ơi, em là chiến sĩ Phúc  m,<br> gian khổ nguy khó chớ nao, vui mang Chúa đến cho người.",
+				"Ngước mắt lên trời con cầu xin cho má.<br>Ngước mắt lên trời con cầu xin cho ba. <br>Cho ba cho má con luôn trên thuận dưới hòa.<br> Tay với lên trời con cầu xin cho bác. <br>Tay với lên trời con cầu xin cho cô. <br>Cho cô cho má con luôn sống đời an vui. <br><br>Ngước mắt lên trời con thành tâm xám hối. <br>Ngước mắt lên trời con cầu ơn tha thứ. <br>Xin thương thánh hóa cho tim con thành tinh tuyền.<br>Tay với lên trời con cầu im tiếng súng. <br>Tay với lên trời xin ngừng tiếng khóc than. <br>Cho quê cho nước con mau thấy ngày sáng tươi.<br>",
+				"Thiếu Nhi Việt Nam còn nghe tiếng gọi tha thiết.<br> Đi lên vùng lên! Quyết đem tin mừng, bác ái.<br> Với ý chí kiên cường và đem tin yêu hy vọng dựng xây đời mới trên khắp nước Việt ngày mai.<br> Hy sinh không ngại dấn thân. Thánh Thể Chúa nguồn sống tuôn tràn.<br> Lời Chúa chính là chân lý chiếu soi giúp ta không lầm đường.<br> Thiếu Nhi Việt Nam bừng lên ánh hồng tươi sáng.<br> Ta đem nguồn vui đến trong tâm hồn u tối.<br> Thánh hóa các môi trường và luôn chuyên tâm học hành.<br> Dựng xây tổ quốc phục hưng giáo hội Việt Nam.",
+				"Thiếu Nhi Việt Nam đứng lên trong giai đoạn mới,<br>theo tiếng Giáo Hội và tiếng quê hương kêu mời. <br>Được trang bị dũng mạnh bằng tinh thần mới,<br>tuổi trẻ Việt Nam hăng hái xây thế hệ ngày mai.<br>Cùng đi hỡi các Thiếu Nhi! Cùng đi với Chúa Kitô!<br>Nguồn Sống Thánh Thể chan hòa,<br>là lý tưởng của người Thiếu Nhi hôm nay.<br>Thiếu Nhi Việt Nam quyết tâm trong giai đoạn mới.<br> Thánh hóa môi trường rèn những khả năng phi thường.<br>Bằng NGUYỆN CẦU, HY SINH và một bầu khí mới,<br>tuổi trẻ VIỆT NAM đem CHÚA cho giới trẻ VIỆT NAM.",
+				"Chúng em là Thiếu Nhi Việt Nam, Việt Nam<br>Chúng em cùng nắm tay ca khúc Việt Nam<br>Mong quê hương yên vui tự do thanh bình<br>Chúng em còn là người Việt Nam, Việt Nam.<br><br>1. Chúng em là Thiếu Nhi Việt Nam, Việt Nam<br>Chúng em cùng đắp xây trong tiếng Việt Nam<br>Dù là đang lúc học hay lúc giỡn chơi<br>Chúng em vẫn không quên quê hương Việt Nam<br><br>2. Chúng em là Thiếu Nhi Việt Nam, Việt Nam<br>Chúng em còn trái tim yêu mến Việt Nam<br>Dù ở tận góc biển hay cuối chân trời<br>Chúng em vẫn yêu thương quê hương Việt Nam.",
+				"This is the day (2x)<br>That the Lord has made (2x)<br>Let us rejoice (2x)<br>And be glad in him (2x)<br>This is the day that<br>the Lord has made<br>Let us rejoice<br>and be glad in it<br>This is the day (2x)<br>That the Lord has made",
+				"Nào anh em, cùng ra đây, xem chúng ta chung nhau thổi kèn<br>tò tí tò, tò tí te, tò tí tò tí te te tò<br>Nào anh em, cùng ra đây, xem chúng ta chung nhau gẩy đàn<br>Từng tứng từng, từng tứng tưng, từng tứng từng túng tưng tưng từng.",
+				"Em nghe gì không hỡi em, con chim nó hót vang đầu hè.<br>Em thấy gì, không hỡi em, con chim nó múa trên càng tre.<br>Hót đi chim, hót đi chim, hót cho mặtt trời hồng quê ta.<br>Hót đi chim, hót đi chim, hót cho lòng hận thù trôi xa.<br>Chim trên đồng chim trên non, chim tung cánh xoá tan sương mù.<br>Chim trong hồn chim trong tim, ôi thương quá tiếng chim Việt Nam.<br><br>Hoa cúc vàng trên sân anh, xinh như áo mới em ngày nào.<br>Hoa thắm hồng trên quê anh, xinh như má thắm em ngày xanh.<br>Nắng lên đi, nắng lên đi, nắng lên hồng nụ cười quê em.<br>Nắng lên đi, nắng lên đi, nắng lên hồng ruộng mạ xanh thêm.<br>Hoa tim người hoa yêu thương, hoa thơm ngát thế gian đêm buồn.<br>Hoa trên đồi hoa trên môi, ơi thương quá cánh hoa Việt Nam",
+				"Tiến bước lên nào đoàn ta như tên băng tiến.<br>Khó nguy xá gì muôn chông gai hăng hái ta sợ chi.<br>Với Chúa lên đường đoàn ta thi nhau vui tiến.<br>Quyết gieo Phúc  m mang vui tươi cho thế gian ưu phiền.<br>Anh em ơi ta tiến lên đường xa đang chờ đợi ta, chời đợi ta.<br>Tiếng Chúa vang khắp đồng xa.<br>Mau mau lên ta đến lượm ngàn bông lúa đồng mênh mông,<br>đồng mênh mông, hái cho hết muông bông vàng.Anh em ta mừng vui hát theo làn sóng lúa vàng,<br>bát ngát cánh đồng truyền giáo ta say nguồn sống.<br>Ánh sáng đón mừng đồng lúa pha mầu thêm tuyệt vời.<br>Ta yêu cuộc đời gặt hái gieo vui nước Trờ. Tiến ...",
+				"Tiếng hát mẹ cha, tôi yêu nòi giống.<br>Tiếng hát lịch xử, tôi yêu đất đai.<br>Tiếng hát thiên nhiên, tôi yêu nhân loại.<br>Tiếng hát trái tim, tôi yêu hòa bình.",
+				"Tiếng hát em lan rộng bốn phương trời.<br>Tràn niềm vui trên môi miệng xinh tươi.<br>Tiếng hát em mang tình đến muôn người.<br>Nụ cười duyên em nở mãi trên môi.<br>Tiếng hát em bay vào cõi xa vời.<br>Mà tình yêu mãi ngút ngàn lên khơi.<br>Tiếng hát em bay vào cõi quê trời.<br>Hòa tình yêu tình của Chúa Ba Ngôi.",
+				"Tiến mau lên nhé ta lên đường vào sa mạc<br>Trời biển bao la hay rừng sâu không chùn bước<br>Tiến mau lên nhé ta lên đường núi cao<br>Chúng mình đi về đất hứa nơi mong chờ!",
+				"Tiếng hát mẹ cha, tôi yêu nòi giống.<br>Tiếng hát lịch xử, tôi yêu đất đai.<br>Tiếng hát thiên nhiên tôi yêu nhân loại.<br>Tiếng hát trái tim, tôi yêu hoà bình.",	
+				"Muốn đi tìm chân lý,<br>muốn đi tìm anh bình<br>trong thâm tâm con người,<br>hãy trở về nhà tìm<br>tha thứ cho chính kẻ thù ta.",
+				"Này anh này chị này em,<br>Con tim không bao giờ ghen ghét.<br>Này anh này chị này em,<br>Con tim không bao giờ ghét ghen.<br>Tim ghét ghen là tim héo hon.<br>Tim ghét ghen là tim héo hon.<br>Tim ghen ghét là tim úa tàn. <br>Tim xanh xao là tim thiếu máu.<br>Tim ghen ghét là tim vất đi.",
+				"Ai đi tìm Thiên Chúa người ở đâu mà bấy lâu anh hằng đi tìm?<br>Tôi đi tìm Thiên Chúa người ở đâu mà bấy lâu tôi hằng tìm luôn.<br>Ngày người bạn hồn tôi ơi, Thiên Chúa giữa cuộc đời,<br>người trong tâm hồn, người trong lương tâm<br>và người hiện diện giữa bầu trời hùng oai.",
+				"Ta nhớ ngày năm xưa, bốn mươi năm đi về đất hứa.<br>Lang thang trên đồi cát, dấu đã hằn in tiếng thở than.<br>Đi trong mưa Man-na, uống nước nguồn đẹp như hy vọng.<br>Và trong áng mây bay, bóng lửa hồng Chúa dẫn dân đi.",
+				"Con sợ quá mẹ ơi.<br>Con sợ mẹ chóng già.<br>Mẹ già như trái chín cây, gió đưa, đưa mẹ sụng.<br>Con rầy rầy mồ côi.<br>Con sợ quá mẹ ơi.<br>Con sợ mẹ chóng già.<br>Học về ăn chút bánh khô, để cơm nuôi mẹ.<br>Mẹ già già mẹ ơi.",
+				"Tôi trồng, anh tưới, Thiên Chúa mới cho mọc lên.<br>Tôi cầy, anh cấy, Chúa Trời cho bong lúa vàng.",
+				"A-dong E-và nghe lời con rắn tinh ma.<br>Một lòng ăn trái Chúa không truyền ban.<br>Nhân gian sau này cũng là con cháu A-dong.<br>Tội truyền vướng mắc đến muôn muôn đời."]
 	};
 
 	songU = {
@@ -553,8 +582,20 @@ function mySongs (pos) {
 	};
 
 	songV = {
-		titles: [],
-		lyrics: []
+		titles: ["Vầng Trăng","Về Ðất Hứa ","Về Da-mas","Về Đất Hứa Hành Khúc","Về Giữa Ca Mừng","Về Miền Ánh Sáng ","Về Với Mẹ Cha","Việt Nam Các Thánh Tử Đạo","Việt Nam Quê Hương Ngạo Nghễ","Vòng Tay Cho Người","Vui Ca Lên","Vui Là Vui"],
+
+		lyrics: ["Nhìn vầng trăng em thấy rằng Trời cao.<br>Nhìn muôn sao em tin thật có Chúa.<br>Chúa cho em bầu trời xinh quá là xinh.<br>Chúa cho em tâm tình em kính dâng Ngài.",
+				"Tiến về miền đất phì nhiêu.<br>Ta về miền đất hoa màu.<br>Lên đường về miền đất hứa.<br>Ðến nơi ta mong chờ.",
+				"Về Da-mas. Về Da-mas ta bước trong niềm tin.<br>Khắp nơi ta tiến về, tiến về Da-mas. Về Da-mas.<br>Về Da-mas theo Chúa trên mọi nẻo đường.<br>Hãy đi gieo tin mừng, đi gieo tình thương!<br>Quyết tiến về Da-mas! Quyết tiến về Da-mas.",
+				"Đi về Đất Hứa! Ta đi về Đất Hứa, miền đất chảy sữa với mật ong.<br>Đi đều chân. Mắt sáng niềm tin, câu ca hát vang tưng bừng.<br>Về Đất Hứa áng mây che ban ngày, đêm tối ánh đuốc thiêng sáng ngời,<br>vào sa mạc nắng mưa ngại chi. Trời mới đất mới, quê hương mong chờ,<br>đồng hành với Chúa tim reo vui rỗn ràng, vượt qua rừng sâu núi cao không màng.",
+				"Người gieo trong nước mắt sẽ gặt giữa ca mừng.<br>Người ra đi gian khổ sẽ về giữa tiếng reo.<br>Hôm nay ta lo toan mồ hôi lã chã rơi.<br>Mai đây ta hân hoan ôm ngàn bông lúa tươi cười.",
+				"Bé ước mơ có đôi cách Thiên Thần.<br>Em sẽ bay về miền trời ánh sáng.",
+				"Từ Nam Quan, Cà Mau, từ non cao rừng sâu gặp nhau do non nước xây cầu.<br>Người thanh niên Việt Nam, quay về với xóm làng, tiếng reo vui rộn trong lòng.<br> Cùng đi xây Hoành Sơn, cùng đi xây trưng sơn, cùng đi biến rừng hoang ra lúa thơm.<br> Vượt khỏi ra đảo xa lướt ngàn nước, sông nhà ta đắp bồi cho mẹ cha.",
+				"Việt Nam các Thánh Tử Đạo Việt Nam máu thánh tuôn tràn.<br>Việt Nam máu đào loan truyền vang lên khắp chốn.<br>Nghĩa Sĩ luôn đi chinh phục. Nghĩa Sĩ luôn quên thân mình,<br>cùng quyết tiến lên bạn ơi, giống hùng anh chẳng nề ngại chi.",
+				"Ta như nước dâng, dâng tràn có bao giờ tàn.<br>Đường dài ngút ngàn, chỉ một trận cười vang vang.<br>Lê sau bàn chân, gông xiềng một thời xa xăm.<br>Đối mắt ta rực sáng, theo nhịp xích kêu loàng xoàng.<br>Ta khua xích kêu, vang dậy trước mặt mọi người.<br>Nụ cười muôn đời, là một nụ cười không tươi.<br>Nụ cười xa vời, nụ cười của lòng hờn sôi.<br>Bước tiến ta tràn tới, tung xiềng vào mặt nhân gian.<br>Máu ta từ thành Văn Lang dồn lại.<br>Xương da thịt này cha ông miệt mài, từng giờ qua.<br>Cười ngạo nghễ đi trong đau nhức không nguôi.<br>Chúng ta thành một đoàn người hiên ngang,<br>trên bàn trông hát cười đùa vang vang.<br>Còn Việt Nam, triệu con tim là còn triệu khối kiêu hùng.",
+				"Ngày xưa Chúa Kitô thập giá vác trên vai<br>Vòng gai cuốn trên đàu Người ra pháp trường<br>Người đi chết cho tôi, Người đi chết cho anh<br>Chết cho em, chết cho người người hôm nay<br>Người ơi có nhớ (láy)<br>Người đã chết cho đồi (láy)<br>Người ơi có hay (láy)<br>Xin cho Người vòng tay (láy)<br><br>Ngày nay chúa Kitô tình mến thấm contim<br>Tình yêu nhuốm máu đào Người đã sống lại<br>Người đang sống trong tôi<br>Người đang sống trong anh<br>Sống trong em, sống tron lòng đời hôm nay.<br>Bạn ơi hãy nhớ (láy)<br>Người đa sống lại rồi (láy)<br>Allêluia (láy)<br>Ca lên nào bạn ơi (láy)",
+				"Hăm xa lêy bì, hăm xa lêy bì<br>Hăm xa lêy bí ha hù ra<br>Hu rà hu rà hu rá hu ra hù ra (2x)<br>Hăm xa lêy bì, hăm xa lêy bì<br>Hăm xa lêy bì ha hù ra<br>Vui ca lên nào, vui ca lên nào<br> Vui ca lên chúng ta cùng ca<br>Ca nào ca nào ta hát cho to và hay (2x)<br>Vui ca lên nào, vui ca lên nào<br>Vui ca lên đời ta sung sướng.",
+				"Vui là vui là vui chúng mình vui nhiều.<br>Vui là vui là vui chúng mình vui quá.<br>Vui là vui là vui chúng mình vui nhiều.<br>Vui là vui là vui chúng mình quá vui."	]
 	};
 
 	songW = {
@@ -563,13 +604,20 @@ function mySongs (pos) {
 	};
 
 	songX = {
-		titles: [],
-		lyrics: []
+		titles: ["Xắt Cái Lị","Xây Dựng","Xòe Bàn Tay"],
+
+		lyrics: ["Xắt cái lị là xắt cái lị là xào xào xào.<br>Púm cái lị là púm cái lị là pào pào pào.<br>Xắt cái lị là xào, Púm cái lị là pào.<br>Xắt cái lị là Púm cái lị là xá xíu pao.",
+				"Này anh ơi hãy mau dựng xâỵ<br>Mang tình yêu tô đẹp mọi nhà.<br>Này anh ơi hãy mau dứng xây.<br> Để nhà Nam tươi đẹp hoa lá.<br> Này anh ơi hãy mau dứng xây.<br> Để nhà Nam tươi đẹp hoa lá.<br> Này anh ơi hãy mau dứng xây.<br> Mang tình yêu tô đẹp mọi nhà.<br> Này anh ơi hãy mau dứng xâỵ.<br> Để nhà Nam tươi đẹp muôn màu.",
+				"Xòe bàn tay đếm ngón tay<br>Một anh béo trông thật béo ghê<br>Cả ngày vui ai có việc <br>Là anh giúp luôn không ngồi yên<br><br>Kề bền anh đứng thứ hai<br>Một anh tính thật thà dễ thương<br>Hỏi rằng anh cao nhất nhà?<br>Thì anh lắc luôn ngay cái đầu<br><br>Xòe bàn tay đếm ngón tay<br>Một anh đứng trông thật quá cao <br>Hỏi rằng anh sao cao thế này? <br>Thì anh nói chân anh thì cao <br><br>Kề bền anh đứng thứ tư<br>Hỏi anh đả biết đọc chữ chưa?<br>Thì anh thưa: Anh biết rồi <br>Và anh đứng yên giơ tay chào <br><br>Xòe bàn tay đếm ngón tay<br>Em bé trông thật dễ thương<br>Hỏi rằng ai em út nhà?<br>Thì em hát theo ngay điệu ca<br><br>Rằng là em bé rất ngoan<br>Thường hay hát không giận các anh<br>Làm vệ sinh hay quét nhà<br>Và múa hát cho vui ông bà.",]
 	};
 
 	songY = {
-		titles: [],
-		lyrics: []
+		titles: ["Yêu Chúa","Yêu Mến Mẹ Cha","You Are Lord of My Life","You Are My Hiding Place"],
+
+		lyrics: ["Yêu Chúa hết tâm hồn vá hết trí khôn em.<br>Yêu anh em cùng chung sống một nhà.<br>Đó là, đó là ... những giới răn trọng nhất em ghi trong tim.",
+				"Yêu mến Mẹ Cha, yêu trên đầu em.<br> Yêu mến Mẹ Cha, trong quả tim này.<br>Yêu mến Mẹ Cha, yêu trên đầu gối.<br>Yêu mến Mẹ Cha, trên toàn thân em.",
+				"You are the Lord, you are the Lord,<br>you are the Lord of my life<br>You are the King, mighty God<br>You are Saviour and Christ<br>You are all that I need<br>All my heart could desire<br>You are Lord, you are Lord of my life<br><br>Ngài chúa, Ngài là Chúa cả muôn loài<br>Ngài là Vua đầy quyền năng<br>Là đấng cứu chuộc nhân gian<br>Ngài là suối nước ơn lành<br>Mọi khao khát với ước nguyện<br>Lạy Vua yêu. Chính Chúa Vua muôn tâm hồn",
+				"You are my hiding place. You always fill my heart<br>With songs of deliverance whenever I am afraid,<br>I will trust in You. I will trust in you; Let the<br>Weak say, I am strong in the strength of the Lord!",]
 	};
 
 	var song = [songA, songB, songC, songD, songE, songF, songG, songH, songI, songJ, songK, songL, songM,
