@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properties -->
-  <title>Songs - Đoàn Thiếu Nhi Thánh Thể Vinh Sơn Liêm</title>
+  <title>Ngành Ấu</title>
   <link rel="stylesheet" type="text/css" href="dist/components/reset.css">
   <link rel="stylesheet" type="text/css" href="dist/components/site.css">
 
@@ -25,10 +25,9 @@
   <link rel="stylesheet" type="text/css" href="dist/components/icon.css">
   <link rel="stylesheet" type="text/css" href="dist/components/sidebar.css">
   <link rel="stylesheet" type="text/css" href="dist/components/transition.css">
-  <link rel="stylesheet" type="text/css" href="dist/components/search.css">
-  <link rel="stylesheet" type="text/css" href="dist/components/input.css">
+  <link rel="stylesheet" type="text/css" href="dist/components/card.css">
 
-  <link rel="stylesheet" type="text/css" href="Songs.css">
+  <link rel="stylesheet" type="text/css" href="AuPage.css">
   <link rel="icon" href="images/VSL_LOGO.png">
 
   <script src="assets/library/jquery.min.js"></script>
@@ -72,7 +71,7 @@
     <a class="item" href="About_Us.html">About Us</a>
     <a class="item" href="Calendars.html">Calendars</a>
     <a class="item" href="Contacts.html">Contacts</a>
-    <a class="active item" href="Resources.html">Resources</a>
+    <a class="item" href="Resources.html">Resources</a>
     </div>
   </div>
 </div>
@@ -83,7 +82,7 @@
   <a class="item" href="About_Us.html">About Us</a>
   <a class="item" href="Calendars.html">Calendars</a>
   <a class="item" href="Contacts.html">Contacts</a>
-  <a class="active item" href="Resources.html">Resources</a>
+  <a class="item" href="Resources.html">Resources</a>
 </div>
 
 <!-- Page Contents -->
@@ -92,7 +91,7 @@
     <a href="index.html"><img src="images/VSLOGO2.png" class="logo"></a>
     <div class="ui container" style="opacity: .7; background-color:white; margin-left: 0 !important; margin-right: 0 !important;">
       <div class="ui large secondary inverted pointing menu">
-        <a class="toc item" style="color: black !important; margin-left: 10em;">
+        <a class="toc item" style="color:black !important; margin-left: 10em;">
           <i class="sidebar icon"></i>
         </a>
         
@@ -101,74 +100,21 @@
           <a class="item" href="About_Us.html" style="color: black !important;">About Us</a>
           <a class="item" href="Calendars.html" style="color: black !important;">Calendars</a>
           <a class="item" href="Contacts.html" style="color: black !important;">Contacts</a>
-          <a class="active item" href="Resources.html" style="color: black !important; border-color: black;">Resources</a>
+          <a class="item" href="Resources.html" style="color: black !important;">Resources</a>
         </div>
       </div>
     </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        <a><img src="images/song-title.png" alt="Calligraphy Fonts"></a>
-      </h1>
-      <h2 id="moto">"Hát Hay Không Bằng Hay Hát"</h2>
-    </div>
-
   </div>
 
-  <div class="spacex"></div>
+  <h1 id="title">Ngành Ấu Updates<br>Cập Nhật Mới Của Ngành Ấu</h1>
+  </br>
 
-    <div class="alpha">
-      <div align="center">
-      <a href="#spacex1">|  #  </a> |
-      <a href="#spacex1" onclick="mySongs(0)">  A  </a> |
-      <a href="#spacex1" onclick="mySongs(1)">  B  </a> |
-      <a href="#spacex1" onclick="mySongs(2)">  C  </a> |
-      <a href="#spacex1" onclick="mySongs(3)">  D  </a> |
-      <a href="#spacex1" onclick="mySongs(4)">  E  </a> |
-      <a href="#spacex1" onclick="mySongs(5)">  F  </a> |
-      <a href="#spacex1" onclick="mySongs(6)">  G  </a> |
-      <a href="#spacex1" onclick="mySongs(7)">  H  </a> |
-      <a href="#spacex1" onclick="mySongs(8)">  I  </a> |
-      <a href="#spacex1" onclick="mySongs(9)">  J  </a> |
-      <a href="#spacex1" onclick="mySongs(10)">  K  </a> |
-      <a href="#spacex1" onclick="mySongs(11)">  L  </a> |
-      <a href="#spacex1" onclick="mySongs(12)">  M  </a> |
-      <a href="#spacex1" onclick="mySongs(13)">  N  </a> |
-      <a href="#spacex1" onclick="mySongs(14)">  O  </a> |
-      <a href="#spacex1" onclick="mySongs(15)">  P  </a> |
-      <a href="#spacex1" onclick="mySongs(16)">  Q  </a> |
-      <a href="#spacex1" onclick="mySongs(17)">  R  </a> |
-      <a href="#spacex1" onclick="mySongs(18)">  S  </a> |
-      <a href="#spacex1" onclick="mySongs(19)">  T  </a> |
-      <a href="#spacex1" onclick="mySongs(20)">  U  </a> |
-      <a href="#spacex1" onclick="mySongs(21)">  V  </a> |
-      <a href="#spacex1" onclick="mySongs(22)">  W  </a> |
-      <a href="#spacex1" onclick="mySongs(23)">  X  </a> |
-      <a href="#spacex1" onclick="mySongs(24)">  Y  </a> |
-      <br>
-      <a href="#spacex1" onclick="mySongs(25)">|  ALL  </a> |
-      </div>
-    </div>
-    
-    <br>
-    
-    <!--<div class="ui search" style="text-align:center;">
-      <div class="ui icon input">
-        <input class="prompt" type="text" placeholder="UNDER CONSTRUCTION...">
-        <i class="search icon"></i>
-      </div>
-      <div class="results"></div>
-    </div>-->
+  <div class="content box">
+    <div class="ui four column grid" id="dis"></div>
+  </div><!-- div that hold cards infomation-->
+  <script type="text/javascript" src="thieuNhiData.js"></script>
 
-    <div id="spacex1"></div>
-
-    <div id="content" style="width:75%; margin: auto;">
-      <h2 id="letter"></h2>
-      <p id="allSongs"></p>
-    </div>
-
-    <script type="text/javascript" src="dist/components/allsongs.js"></script>
-
+  <br>
 <!-- FOOTER OF COPYRIGHT FRAGMENT -->
   <div class="ui inverted vertical footer segment">
     <div id="copyright">Copyright © 2016 Đoàn TNTT Vinh Sơn Liêm. All rights reserved. Powered by Khoa Nguyen & Dennis Bui.</div>
