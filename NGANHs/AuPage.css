@@ -81,27 +81,42 @@
     margin-top: 0.5em;
     font-size: 1.5em;
   }
-
-
+.ui.inverted.vertical.masthead.center.aligned.segment {
+  background-color:#FFD18C;
+  background-image: url(../images/AuNhi.jpg);
+  background-position: top;
+  background-size: cover;
+}
+  .content.box{
+    padding-left: 5%;
+  }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1080px){
-
+  .content.box{
+    padding-left: 5%;
+  }
+.ui.inverted.vertical.masthead.center.aligned.segment {
+  background-color:#FFD18C;
+  background-image: url(../images/AuNhi.jpg);
+  background-position: top;
+  background-size: cover;
+}
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 2560px){
   .content.box{
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 5%;
   }
-}
-
-.ui.inverted.vertical.masthead.center.aligned.segment {
+  .ui.inverted.vertical.masthead.center.aligned.segment {
   background-color:#FFD18C;
-  background-image: url(images/AuNhi.jpg);
-  background-position: top;
+  background-image: url(../images/AuNhi.jpg);
+  background-position: center;
   background-size: cover;
 }
+}
+
+
 .ui.large.secondary.inverted.pointing.menu{
   border: none;
   margin-right: 20em;
@@ -121,7 +136,7 @@
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: url("images/navigate-up-arrow.png") no-repeat center 43%;
+  background: url("../images/navigate-up-arrow.png") no-repeat center 43%;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
